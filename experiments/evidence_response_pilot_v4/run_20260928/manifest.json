@@ -1,0 +1,370 @@
+{
+  "status": "COMPLETED_AI_EXPLORATORY",
+  "started_at": "2026-09-28T12:46:48.818080+00:00",
+  "seed": 20260927,
+  "dataset_sha256": "ac11a55f2c21d458a24b5bfed7cb3af4f16eea90b1e42bfd8483bafd24fceb2c",
+  "protocol_sha256": "dbb02ab1a53ece3d8e64f5e6570534b370e336b92dba46eed5eb30357990786f",
+  "source_run_manifest_sha256": "e7f918474e07b31c58bdafc770700d90bd319303c46edc7eacd83e21d8781004",
+  "source_actions_sha256": "c950163e91c0be8ea5b6bee9478ca931b40aea69c68215b534a37c7e8aa44508",
+  "source_config": {
+    "schema_version": 1,
+    "config_id": "kcsc-pilot-retrieval-config-v1",
+    "status": "pre_registered_before_baseline_scores",
+    "seed": 20260909,
+    "input": {
+      "search_unit": "section_id",
+      "query_fields": [
+        "question"
+      ],
+      "passage_fields": [
+        "code",
+        "document_name",
+        "title",
+        "label",
+        "text_search"
+      ],
+      "passage_template": "[CODE] {code}\n[DOCUMENT] {document_name}\n[SECTION] {title} {label}\n[TEXT] {text_search}",
+      "ancestor_path_in_baseline": false
+    },
+    "lexical": {
+      "engine": "SQLite FTS5",
+      "tokenizer": "trigram",
+      "query_builder": "fts_or_v1",
+      "unicode_normalization": "NFKC",
+      "operator": "OR",
+      "minimum_standalone_characters": 3,
+      "pair_adjacent_short_terms": true,
+      "gold_derived_terms": false,
+      "manual_synonyms": false,
+      "code_is_hard_filter": false,
+      "bm25_column_weights": {
+        "code": 8.0,
+        "document_name": 5.0,
+        "title": 3.0,
+        "label": 2.0,
+        "text_search": 1.0
+      },
+      "top_k": 100,
+      "tie_break": "section_id_ascending"
+    },
+    "dense": {
+      "model": "BAAI/bge-m3",
+      "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+      "mode": "dense_only",
+      "pooling": "cls",
+      "query_max_tokens": 128,
+      "passage_max_tokens": 1024,
+      "truncation": "right_body_after_metadata_prefix",
+      "normalize_embeddings": true,
+      "similarity": "exact_inner_product",
+      "approximate_index": false,
+      "compute_dtype": "float16",
+      "embedding_storage_dtype": "float32",
+      "similarity_accumulation_dtype": "float32",
+      "top_k": 100,
+      "batch_probe_candidates": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "tie_break": "section_id_ascending",
+      "batch_size": 1
+    },
+    "hybrid": {
+      "method": "reciprocal_rank_fusion",
+      "rrf_k0": 60,
+      "deduplicate_by": "section_id",
+      "top_k": 100,
+      "rerank_input_top_k": 50,
+      "tie_break": "section_id_ascending"
+    },
+    "reranker": {
+      "model": "BAAI/bge-reranker-v2-m3",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "pair_max_tokens": 1536,
+      "truncation": "only_second",
+      "score": "raw_logit",
+      "compute_dtype": "float16",
+      "input_top_k": 50,
+      "output_top_k": 20,
+      "batch_probe_candidates": [
+        1,
+        2,
+        4
+      ],
+      "tie_break": "section_id_ascending"
+    },
+    "evaluation": {
+      "cutoffs": [
+        5,
+        10,
+        20
+      ],
+      "primary_metric": "required_evidence_recall_at_10",
+      "controls_in_answerable_denominator": false,
+      "store_raw_rankings_top_k": 100
+    }
+  },
+  "runtime_versions": {
+    "torch": "2.13.0+cu130",
+    "numpy": "2.5.2"
+  },
+  "source_code_hashes": {
+    "experiments/response_selection_pilot_v3/run_local.py": "9aac89f7989816802a3da6632fc75e2ca267802227f953cbdc3fb51e921ec2d9",
+    "experiments/response_selection_pilot_v3/selection_core.py": "37c7b3fd980d5adc903276fde8335121f03517aff335f784bf28d74092b7862e",
+    "experiments/retrieval_failure_discovery_v1/scripts/run_baselines.py": "bbffe737d24781a4b5fb3c06db61b2a6ebc409da127712de18fd8e31f6d1e56c",
+    "experiments/retrieval_failure_discovery_v1/scripts/retrieval_config.py": "b39efa398c20bd3ab643d2fc1f44fa37ae62854cc408cd57abc48b49592d3ddf"
+  },
+  "source_runtime_overrides": {
+    "note": "The config object below is inherited source configuration, not a new formal preregistration. Actual runner settings are explicit in hashed run_local.py.",
+    "seed": 20260927,
+    "dense_query_batch_size": 1,
+    "reranker_batch_size": 4,
+    "reranker_input_limit": 50,
+    "reranker_saved_output_limit": 50,
+    "evaluation_cutoffs": [
+      5,
+      10,
+      15
+    ],
+    "reference_initial_sources": 5,
+    "reference_max_matches_per_source": 3,
+    "reference_max_targets_per_match": 20,
+    "split_max_extra_queries": 2,
+    "annotation_date": "2026-09-27"
+  },
+  "new_code_hashes": {
+    "core.py": "722071054dcf7411e86e15ed04c2b9175917873b67d5e63ff9564605c9634d4b",
+    "build_dataset.py": "6e05294b803d587b2756c4d5425858d96e240bea40b551fbad1dabe99664f276",
+    "run_incremental.py": "1469728613e26cf42b73de6baa3b30430b1cbe189ca06729b02cfd5875a8d69b",
+    "test_core.py": "7995bfe9d07f4efe23eb11e7dcc09e9329dacb22c9293ab6622bc4584620ade3"
+  },
+  "nvidia_smi": "Mon Sep 28 21:46:48 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 595.84                 Driver Version: 595.84         CUDA Version: 13.2     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 3090        Off |   00000000:09:00.0  On |                  N/A |\n| 48%   65C    P2            115W /  350W |     968MiB /  24576MiB |      9%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n[Process names and PIDs omitted in handoff copy.]\n",
+  "repeats": 2,
+  "actions": [
+    "STOP",
+    "RERANK",
+    "REFERENCE",
+    "SPLIT",
+    "HYBRID_RERANK",
+    "KEEP3"
+  ],
+  "reused_queries": [
+    "DIR-01",
+    "DIR-02",
+    "DIR-03",
+    "DIR-04",
+    "DIR-05",
+    "DIR-06",
+    "DIR-07",
+    "DIR-08",
+    "DIR-09",
+    "DIR-10",
+    "DIR-11",
+    "DIR-12",
+    "APP-01",
+    "APP-02",
+    "APP-03",
+    "APP-04",
+    "APP-05",
+    "APP-06",
+    "APP-07",
+    "APP-08",
+    "APP-09",
+    "APP-10",
+    "APP-11",
+    "APP-12",
+    "MUL-01",
+    "MUL-02",
+    "MUL-03",
+    "MUL-04",
+    "MUL-05",
+    "MUL-06",
+    "MUL-07",
+    "MUL-08",
+    "MUL-09",
+    "MUL-10",
+    "MUL-11",
+    "MUL-12"
+  ],
+  "new_queries": [
+    "REF-01",
+    "REF-02",
+    "REF-03",
+    "REF-04",
+    "REF-05",
+    "REF-06",
+    "REF-07",
+    "REF-08",
+    "REF-09",
+    "REF-10",
+    "REF-11",
+    "REF-12"
+  ],
+  "cache_match": "query exact, model/config/code/corpus hashes; same torch/numpy/GPU/driver",
+  "timing_scope": "query embedding+dense+one response; component-summed wall time, excludes unused selector features, cache I/O, evaluation; old and new sessions reported separately",
+  "external_api_calls": 0,
+  "currency_cost": null,
+  "energy_cost": null,
+  "git_head": "e2607b9a256543af4f90cc48fe0bc065af176e12",
+  "query_token_lengths": {
+    "DIR-01": 26,
+    "DIR-02": 23,
+    "DIR-03": 27,
+    "DIR-04": 30,
+    "DIR-05": 34,
+    "DIR-06": 34,
+    "DIR-07": 30,
+    "DIR-08": 34,
+    "DIR-09": 32,
+    "DIR-10": 26,
+    "DIR-11": 36,
+    "DIR-12": 30,
+    "APP-01": 43,
+    "APP-02": 40,
+    "APP-03": 56,
+    "APP-04": 41,
+    "APP-05": 52,
+    "APP-06": 44,
+    "APP-07": 46,
+    "APP-08": 38,
+    "APP-09": 40,
+    "APP-10": 28,
+    "APP-11": 54,
+    "APP-12": 47,
+    "MUL-01": 28,
+    "MUL-02": 48,
+    "MUL-03": 41,
+    "MUL-04": 40,
+    "MUL-05": 38,
+    "MUL-06": 40,
+    "MUL-07": 39,
+    "MUL-08": 43,
+    "MUL-09": 41,
+    "MUL-10": 45,
+    "MUL-11": 47,
+    "MUL-12": 41,
+    "REF-01": 60,
+    "REF-02": 54,
+    "REF-03": 57,
+    "REF-04": 44,
+    "REF-05": 49,
+    "REF-06": 47,
+    "REF-07": 46,
+    "REF-08": 59,
+    "REF-09": 40,
+    "REF-10": 49,
+    "REF-11": 52,
+    "REF-12": 65
+  },
+  "setup_seconds": 10.205958568956703,
+  "completed_at": "2026-09-28T12:47:21.879849+00:00",
+  "wall_seconds": 33.0617889710702,
+  "reused_inference_records": 360,
+  "new_inference_records": 120,
+  "new_transform_records": 96,
+  "total_records": 576,
+  "peak_cuda_allocated_bytes": 4709454336,
+  "actions_sha256": "71b105a792bc5d8fead977987e5e6ae50c9ca4ac4c06c962444761ebfacd18bd",
+  "effective_config": {
+    "schema_version": 1,
+    "config_id": "kcsc-pilot-retrieval-config-v1",
+    "status": "pre_registered_before_baseline_scores",
+    "seed": 20260909,
+    "input": {
+      "search_unit": "section_id",
+      "query_fields": [
+        "question"
+      ],
+      "passage_fields": [
+        "code",
+        "document_name",
+        "title",
+        "label",
+        "text_search"
+      ],
+      "passage_template": "[CODE] {code}\n[DOCUMENT] {document_name}\n[SECTION] {title} {label}\n[TEXT] {text_search}",
+      "ancestor_path_in_baseline": false
+    },
+    "lexical": {
+      "engine": "SQLite FTS5",
+      "tokenizer": "trigram",
+      "query_builder": "fts_or_v1",
+      "unicode_normalization": "NFKC",
+      "operator": "OR",
+      "minimum_standalone_characters": 3,
+      "pair_adjacent_short_terms": true,
+      "gold_derived_terms": false,
+      "manual_synonyms": false,
+      "code_is_hard_filter": false,
+      "bm25_column_weights": {
+        "code": 8.0,
+        "document_name": 5.0,
+        "title": 3.0,
+        "label": 2.0,
+        "text_search": 1.0
+      },
+      "top_k": 100,
+      "tie_break": "section_id_ascending"
+    },
+    "dense": {
+      "model": "BAAI/bge-m3",
+      "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+      "mode": "dense_only",
+      "pooling": "cls",
+      "query_max_tokens": 128,
+      "passage_max_tokens": 1024,
+      "truncation": "right_body_after_metadata_prefix",
+      "normalize_embeddings": true,
+      "similarity": "exact_inner_product",
+      "approximate_index": false,
+      "compute_dtype": "float16",
+      "embedding_storage_dtype": "float32",
+      "similarity_accumulation_dtype": "float32",
+      "top_k": 100,
+      "batch_probe_candidates": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "tie_break": "section_id_ascending",
+      "batch_size": 1
+    },
+    "hybrid": {
+      "method": "reciprocal_rank_fusion",
+      "rrf_k0": 60,
+      "deduplicate_by": "section_id",
+      "top_k": 100,
+      "rerank_input_top_k": 50,
+      "tie_break": "section_id_ascending"
+    },
+    "reranker": {
+      "model": "BAAI/bge-reranker-v2-m3",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "pair_max_tokens": 1536,
+      "truncation": "only_second",
+      "score": "raw_logit",
+      "compute_dtype": "float16",
+      "input_top_k": 50,
+      "output_top_k": 20,
+      "batch_probe_candidates": [
+        1,
+        2,
+        4
+      ],
+      "tie_break": "section_id_ascending"
+    },
+    "evaluation": {
+      "cutoffs": [
+        5,
+        10,
+        20
+      ],
+      "primary_metric": "required_evidence_recall_at_10",
+      "controls_in_answerable_denominator": false,
+      "store_raw_rankings_top_k": 100
+    }
+  }
+}

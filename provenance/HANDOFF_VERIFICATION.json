@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "dataset": "evidence_response_pilot_v4_20260928",
+  "checks": {
+    "package_checksums": 61,
+    "documented_source_to_public_transformations": 43,
+    "questions_balanced_and_verbatim_evidence_omitted": true,
+    "original_and_export_hashes_distinguished_and_code_frozen": true,
+    "complete_576_record_matrix_and_36_query_reuse_contract": true,
+    "reused_records_identical": 360,
+    "repeated_top15_pairs": 288,
+    "independently_scored_repeat_cutoffs": 1728,
+    "complete_csv_rows": 864,
+    "all_summary_groups_times_transitions_stages_and_key_trace_match": true,
+    "full_db_or_model_inference_required_for_this_audit": false
+  },
+  "independently_rerun_inference": false,
+  "human_validation": false,
+  "not_rechecked": [
+    "Original corpus text and all returned section existence",
+    "Reference code strings in omitted original passages",
+    "Semantic completeness of gold and expert validity",
+    "GPU inference, full 73-test source repository suite, bibliographic accuracy"
+  ],
+  "original_verification_record": "experiments/evidence_response_pilot_v4/run_20260928/verification.json"
+}

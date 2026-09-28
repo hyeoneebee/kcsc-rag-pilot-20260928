@@ -1,0 +1,32 @@
+{
+  "question_sha256": "da9878e0e10d060e8a9b82206987f79a754c0b50c2c7b9ee6e8c4da56f00b56e",
+  "n": 48,
+  "primary_types": {
+    "direct_single_clause": 12,
+    "applicability_near_miss": 12,
+    "multi_evidence": 12,
+    "reference_following": 12
+  },
+  "source_families": {
+    "KDS": 9,
+    "KCS": 10,
+    "EXCS": 6,
+    "KRACS": 2,
+    "KRCCS": 5,
+    "KWCS": 3,
+    "LHCS": 4,
+    "NHCS": 3,
+    "SMCS": 6
+  },
+  "status": "AI_DRAFT_EXPLORATORY_ONLY",
+  "generation_cost_usd": null,
+  "generation_cost_note": "Conversation drafting cost not separately metered; runtime external API calls=0",
+  "old_exposure_exclusion": "Excluded current reviewed gold document codes in candidate pool; not guaranteed independent of all historical drafts",
+  "sampling_bias": [
+    "source-conditioned questions",
+    "balanced capability quotas",
+    "text-only",
+    "many questions name a standards family",
+    "purposive selection, not random corpus QA sample"
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "package_version": "paper-handoff-v4-20260928-public",
+  "source_repository": "https://github.com/hyeoneebee/kcsc-collector",
+  "source_git_head": "e2607b9a256543af4f90cc48fe0bc065af176e12",
+  "source_status_note": "v4 and v3 experiment artifacts were untracked at export; Git HEAD alone does not identify them. Use per-file SHA-256 below.",
+  "transformations_are_not_new_experiments": true,
+  "excluded": [
+    "entire corpus and raw API snapshots",
+    "embedding arrays",
+    "model weights",
+    "verbatim evidence text_search and reference bridge_text in QA",
+    "answer_draft fields that were concatenations of original evidence passages",
+    "EVIDENCE_REVIEW.html and review_passages.json with bulk source excerpts",
+    "credentials, environment files and .git",
+    "Notion publication metadata and publishing script",
+    "old policy training results and railway-quota pilot results"
+  ],
+  "files": [
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/PROTOCOL.md",
+      "package_path": "experiments/evidence_response_pilot_v4/PROTOCOL.md",
+      "source_sha256": "dbb02ab1a53ece3d8e64f5e6570534b370e336b92dba46eed5eb30357990786f",
+      "package_sha256": "dbb02ab1a53ece3d8e64f5e6570534b370e336b92dba46eed5eb30357990786f",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/RESULTS.md",
+      "package_path": "experiments/evidence_response_pilot_v4/RESULTS.md",
+      "source_sha256": "ca33f2f893e19ceb2cfbd0d83f768c134371a95fba51876b347d5d4ae570f22e",
+      "package_sha256": "ca33f2f893e19ceb2cfbd0d83f768c134371a95fba51876b347d5d4ae570f22e",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/DISCUSSION.md",
+      "package_path": "experiments/evidence_response_pilot_v4/DISCUSSION.md",
+      "source_sha256": "82d227cc52e6d0099cc2c001fb056f15c7e631162ca2e8499e83c00d233cfae7",
+      "package_sha256": "82d227cc52e6d0099cc2c001fb056f15c7e631162ca2e8499e83c00d233cfae7",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/VERIFICATION.md",
+      "package_path": "experiments/evidence_response_pilot_v4/VERIFICATION.md",
+      "source_sha256": "80e01237062660bccd9b7995ec81dd2143b6062586f88ab2e07f6445d066a374",
+      "package_sha256": "80e01237062660bccd9b7995ec81dd2143b6062586f88ab2e07f6445d066a374",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/question_changes.json",
+      "package_path": "experiments/evidence_response_pilot_v4/question_changes.json",
+      "source_sha256": "20dc591ef6f130fe2fd4e44ebbee64012d64ed8cab696807caadc10728347616",
+      "package_sha256": "20dc591ef6f130fe2fd4e44ebbee64012d64ed8cab696807caadc10728347616",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/dataset_manifest.json",
+      "package_path": "experiments/evidence_response_pilot_v4/dataset_manifest.json",
+      "source_sha256": "f77cbfcfe52b60414b6107f099b6434d9ce294de42b65bdb4200f8ab8697b653",
+      "package_sha256": "f77cbfcfe52b60414b6107f099b6434d9ce294de42b65bdb4200f8ab8697b653",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/build_dataset.py",
+      "package_path": "experiments/evidence_response_pilot_v4/build_dataset.py",
+      "source_sha256": "6e05294b803d587b2756c4d5425858d96e240bea40b551fbad1dabe99664f276",
+      "package_sha256": "6e05294b803d587b2756c4d5425858d96e240bea40b551fbad1dabe99664f276",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/core.py",
+      "package_path": "experiments/evidence_response_pilot_v4/core.py",
+      "source_sha256": "722071054dcf7411e86e15ed04c2b9175917873b67d5e63ff9564605c9634d4b",
+      "package_sha256": "722071054dcf7411e86e15ed04c2b9175917873b67d5e63ff9564605c9634d4b",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/run_incremental.py",
+      "package_path": "experiments/evidence_response_pilot_v4/run_incremental.py",
+      "source_sha256": "1469728613e26cf42b73de6baa3b30430b1cbe189ca06729b02cfd5875a8d69b",
+      "package_sha256": "1469728613e26cf42b73de6baa3b30430b1cbe189ca06729b02cfd5875a8d69b",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/test_core.py",
+      "package_path": "experiments/evidence_response_pilot_v4/test_core.py",
+      "source_sha256": "7995bfe9d07f4efe23eb11e7dcc09e9329dacb22c9293ab6622bc4584620ade3",
+      "package_sha256": "7995bfe9d07f4efe23eb11e7dcc09e9329dacb22c9293ab6622bc4584620ade3",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/analyze.py",
+      "package_path": "experiments/evidence_response_pilot_v4/analyze.py",
+      "source_sha256": "c78e539130d82d0b50ab5aaf7b0d422b37dd57c53212f3dd36dbdaaec5b02f02",
+      "package_sha256": "c78e539130d82d0b50ab5aaf7b0d422b37dd57c53212f3dd36dbdaaec5b02f02",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/verify.py",
+      "package_path": "experiments/evidence_response_pilot_v4/verify.py",
+      "source_sha256": "bd60a9ba0c6af753fcc96bccb3905c778dc99189691a6c9af951c92fca9bb3e4",
+      "package_sha256": "bd60a9ba0c6af753fcc96bccb3905c778dc99189691a6c9af951c92fca9bb3e4",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/questions.jsonl",
+      "package_path": "experiments/evidence_response_pilot_v4/questions.jsonl",
+      "source_sha256": "ac11a55f2c21d458a24b5bfed7cb3af4f16eea90b1e42bfd8483bafd24fceb2c",
+      "package_sha256": "07d630074f75c40ea2732108ad895b35718fe16f497c08d464c64e08994816a3",
+      "byte_identical": false,
+      "change": "Public copy: text_search, reference bridge_text and source-concatenated answer_draft omitted. AI paraphrases retained. Questions, gold groups and metadata unchanged."
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/NOTION_REPORT.md",
+      "package_path": "experiments/evidence_response_pilot_v4/NOTION_REPORT.md",
+      "source_sha256": "7bf33eee11959c9201461742e8ea6ad2f7233eb3951494184f69ddc3f76e0841",
+      "package_sha256": "5e3ce76a7d7db88278bce63c898627b04f5227b7ddb06fe22df61e07944a8195",
+      "byte_identical": false,
+      "change": "Local checkout prefix and private Notion navigation removed; result content retained."
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/run_20260928/actions.jsonl",
+      "package_path": "experiments/evidence_response_pilot_v4/run_20260928/actions.jsonl",
+      "source_sha256": "71b105a792bc5d8fead977987e5e6ae50c9ca4ac4c06c962444761ebfacd18bd",
+      "package_sha256": "71b105a792bc5d8fead977987e5e6ae50c9ca4ac4c06c962444761ebfacd18bd",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/run_20260928/analysis_manifest.json",
+      "package_path": "experiments/evidence_response_pilot_v4/run_20260928/analysis_manifest.json",
+      "source_sha256": "69903f481e3f663ea454208ec74686210896c9f32e4e668d06fbd96c11fe02e4",
+      "package_sha256": "69903f481e3f663ea454208ec74686210896c9f32e4e668d06fbd96c11fe02e4",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/run_20260928/cases.json",
+      "package_path": "experiments/evidence_response_pilot_v4/run_20260928/cases.json",
+      "source_sha256": "e12732a98d19c42685413aee7b26bfcd4a5f3f37df35bcf71a6147eceec17e5b",
+      "package_sha256": "e12732a98d19c42685413aee7b26bfcd4a5f3f37df35bcf71a6147eceec17e5b",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/run_20260928/question_action_metrics.csv",
+      "package_path": "experiments/evidence_response_pilot_v4/run_20260928/question_action_metrics.csv",
+      "source_sha256": "91a9252ba23d9d9f45faa6059fd79afcf2fd668197ada2cfab96d099fc0473cc",
+      "package_sha256": "91a9252ba23d9d9f45faa6059fd79afcf2fd668197ada2cfab96d099fc0473cc",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/run_20260928/summary.json",
+      "package_path": "experiments/evidence_response_pilot_v4/run_20260928/summary.json",
+      "source_sha256": "f1815ff14c46e5906c74760bfff48b52beda42780d7a892b2e501c13f706fed9",
+      "package_sha256": "f1815ff14c46e5906c74760bfff48b52beda42780d7a892b2e501c13f706fed9",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/run_20260928/verification.json",
+      "package_path": "experiments/evidence_response_pilot_v4/run_20260928/verification.json",
+      "source_sha256": "4da74b1bd47c483b8496d4abe01a61dea0f8f287f19ebb5538d03eac9cfbb7b2",
+      "package_sha256": "4da74b1bd47c483b8496d4abe01a61dea0f8f287f19ebb5538d03eac9cfbb7b2",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/evidence_response_pilot_v4/run_20260928/manifest.json",
+      "package_path": "experiments/evidence_response_pilot_v4/run_20260928/manifest.json",
+      "source_sha256": "e54813666343ab9b3d43707fe372b73e16b122ff8123720bce2dcd1579167ef7",
+      "package_sha256": "e057b5f2bab9ed71a4acbeea95b3caa9a81b4c3311a8bb534b541996ec3048fa",
+      "byte_identical": false,
+      "change": "Only nvidia_smi process listing removed; original digest retained here."
+    },
+    {
+      "source_path": "experiments/response_selection_pilot_v3/run_local.py",
+      "package_path": "experiments/response_selection_pilot_v3/run_local.py",
+      "source_sha256": "9aac89f7989816802a3da6632fc75e2ca267802227f953cbdc3fb51e921ec2d9",
+      "package_sha256": "9aac89f7989816802a3da6632fc75e2ca267802227f953cbdc3fb51e921ec2d9",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/response_selection_pilot_v3/selection_core.py",
+      "package_path": "experiments/response_selection_pilot_v3/selection_core.py",
+      "source_sha256": "37c7b3fd980d5adc903276fde8335121f03517aff335f784bf28d74092b7862e",
+      "package_sha256": "37c7b3fd980d5adc903276fde8335121f03517aff335f784bf28d74092b7862e",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/response_selection_pilot_v3/run_v1/actions.jsonl",
+      "package_path": "experiments/response_selection_pilot_v3/run_v1/actions.jsonl",
+      "source_sha256": "c950163e91c0be8ea5b6bee9478ca931b40aea69c68215b534a37c7e8aa44508",
+      "package_sha256": "c950163e91c0be8ea5b6bee9478ca931b40aea69c68215b534a37c7e8aa44508",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/response_selection_pilot_v3/build_dataset.py",
+      "package_path": "experiments/response_selection_pilot_v3/build_dataset.py",
+      "source_sha256": "ac557e6c78227dbdf9d13dc11685e9b15867ee077f8f7524033c8e517a82a215",
+      "package_sha256": "ac557e6c78227dbdf9d13dc11685e9b15867ee077f8f7524033c8e517a82a215",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/response_selection_pilot_v3/authored_questions.json",
+      "package_path": "experiments/response_selection_pilot_v3/authored_questions.json",
+      "source_sha256": "f136b596aa5f54380afa75883e65f4742336baf239ffe36e5a2e741aff894c30",
+      "package_sha256": "f136b596aa5f54380afa75883e65f4742336baf239ffe36e5a2e741aff894c30",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/response_selection_pilot_v3/dataset_manifest.json",
+      "package_path": "experiments/response_selection_pilot_v3/dataset_manifest.json",
+      "source_sha256": "16265cf36ceb3c83cfe472e30b8a9ea061c19f07e91bd110a0485dd81cbf0c32",
+      "package_sha256": "16265cf36ceb3c83cfe472e30b8a9ea061c19f07e91bd110a0485dd81cbf0c32",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/response_selection_pilot_v3/prepare_candidates.py",
+      "package_path": "experiments/response_selection_pilot_v3/prepare_candidates.py",
+      "source_sha256": "210276df0992903e376a06cad0b9e4352d57e139f5aa263d63defe6b91de310d",
+      "package_sha256": "13646ba9e6d75387394bc95f956d90382d502fbab4c03dbf97af66a13185d5d7",
+      "byte_identical": false,
+      "change": "Personal path for older reviewed-QA input replaced with explicit non-distributed dependency. Historical authoring only."
+    },
+    {
+      "source_path": "experiments/response_selection_pilot_v3/authoring_pool.json",
+      "package_path": "experiments/response_selection_pilot_v3/authoring_pool.json",
+      "source_sha256": "270569e7511adbbe30b3cfd81e5880bd44ae6c6f9e4d8a246c688d617197fe58",
+      "package_sha256": "c7715d4a745d4ff6819a1064fb3093750c9ca87eb6521a6870f1d7fc11958d9c",
+      "byte_identical": false,
+      "change": "Historical candidate-pool metadata only; all verbatim text_search omitted."
+    },
+    {
+      "source_path": "experiments/response_selection_pilot_v3/questions.v1.jsonl",
+      "package_path": "experiments/response_selection_pilot_v3/questions.v1.jsonl",
+      "source_sha256": "da9878e0e10d060e8a9b82206987f79a754c0b50c2c7b9ee6e8c4da56f00b56e",
+      "package_sha256": "eb3580a11323a399060748a4058e3ba15118e7739c26564b629828e27f5cc8d2",
+      "byte_identical": false,
+      "change": "Public provenance copy: verbatim evidence text and source-concatenated answer drafts omitted; question text and gold groups unchanged. Not current evaluation data."
+    },
+    {
+      "source_path": "experiments/response_selection_pilot_v3/questions.v2.jsonl",
+      "package_path": "experiments/response_selection_pilot_v3/questions.v2.jsonl",
+      "source_sha256": "ff70aa67b05c159e80bdb5bdccb05ce1ebd1c9f6a2af5093d90cd165c6b1e17e",
+      "package_sha256": "01ce8ec3f99d2a4858d6286c62fc0b05cc20003ac2c2d9ab060555dc3af7967e",
+      "byte_identical": false,
+      "change": "Public provenance copy: verbatim evidence text and source-concatenated answer drafts omitted; question text and gold groups unchanged. Not current evaluation data."
+    },
+    {
+      "source_path": "experiments/response_selection_pilot_v3/run_v1/manifest.json",
+      "package_path": "experiments/response_selection_pilot_v3/run_v1/manifest.json",
+      "source_sha256": "e7f918474e07b31c58bdafc770700d90bd319303c46edc7eacd83e21d8781004",
+      "package_sha256": "24d544b7af195fb81b045aaebb90e73978c56b46a2407df1eec49e2577900657",
+      "byte_identical": false,
+      "change": "Only nvidia_smi process listing removed; original digest retained here."
+    },
+    {
+      "source_path": "experiments/retrieval_failure_discovery_v1/scripts/run_baselines.py",
+      "package_path": "experiments/retrieval_failure_discovery_v1/scripts/run_baselines.py",
+      "source_sha256": "bbffe737d24781a4b5fb3c06db61b2a6ebc409da127712de18fd8e31f6d1e56c",
+      "package_sha256": "bbffe737d24781a4b5fb3c06db61b2a6ebc409da127712de18fd8e31f6d1e56c",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/retrieval_failure_discovery_v1/scripts/retrieval_config.py",
+      "package_path": "experiments/retrieval_failure_discovery_v1/scripts/retrieval_config.py",
+      "source_sha256": "b39efa398c20bd3ab643d2fc1f44fa37ae62854cc408cd57abc48b49592d3ddf",
+      "package_sha256": "b39efa398c20bd3ab643d2fc1f44fa37ae62854cc408cd57abc48b49592d3ddf",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/retrieval_failure_discovery_v1/retrieval_config_v1.json",
+      "package_path": "experiments/retrieval_failure_discovery_v1/retrieval_config_v1.json",
+      "source_sha256": "e92ae4fd41c4f7cb987f8ba9ae5b60a669e660afe056ee5d00f51673f185f56a",
+      "package_sha256": "e92ae4fd41c4f7cb987f8ba9ae5b60a669e660afe056ee5d00f51673f185f56a",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/retrieval_failure_discovery_v1/runs/preflight_v1/run_manifest.json",
+      "package_path": "experiments/retrieval_failure_discovery_v1/runs/preflight_v1/run_manifest.json",
+      "source_sha256": "7bcfae3b46d595d2e0103b6acb692ff5f532759344d882a58ad61bcbe70a66c3",
+      "package_sha256": "7bcfae3b46d595d2e0103b6acb692ff5f532759344d882a58ad61bcbe70a66c3",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "experiments/retrieval_failure_discovery_v1/runs/cache/7e2408a65f4cdef444db/state.json",
+      "package_path": "experiments/retrieval_failure_discovery_v1/runs/cache/7e2408a65f4cdef444db/state.json",
+      "source_sha256": "0e344486541ec5eab702d122a253eb30fb3d6a7df73e91162dc01bc9cafb00d6",
+      "package_sha256": "0e344486541ec5eab702d122a253eb30fb3d6a7df73e91162dc01bc9cafb00d6",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "src/__init__.py",
+      "package_path": "src/__init__.py",
+      "source_sha256": "8db2efa2b901b8e912929445c22497b2594fdc97e5bf355fb921047105db9c43",
+      "package_sha256": "8db2efa2b901b8e912929445c22497b2594fdc97e5bf355fb921047105db9c43",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "src/build.py",
+      "package_path": "src/build.py",
+      "source_sha256": "45dc5f4ae121b936add8f005413051198a81787729fe5a5dc87eef5438a93899",
+      "package_sha256": "45dc5f4ae121b936add8f005413051198a81787729fe5a5dc87eef5438a93899",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "src/html_text.py",
+      "package_path": "src/html_text.py",
+      "source_sha256": "629ab9a597e6eb54fa4225465e83ca226eef59d9c494aa5c273b77b14b8fda27",
+      "package_sha256": "629ab9a597e6eb54fa4225465e83ca226eef59d9c494aa5c273b77b14b8fda27",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "src/integrity.py",
+      "package_path": "src/integrity.py",
+      "source_sha256": "167c567dbfff99f1597cd86d9303b3db67992588b7e430a53d8d57eab1318f4e",
+      "package_sha256": "167c567dbfff99f1597cd86d9303b3db67992588b7e430a53d8d57eab1318f4e",
+      "byte_identical": true,
+      "change": null
+    },
+    {
+      "source_path": "data/processed/2026-08-12-full/build-report.json",
+      "package_path": "provenance/corpus_build_report.json",
+      "source_sha256": "b9dca60b8314bfee2477fe2d6252862a788559694b205a89ff1b989bf2cf93d3",
+      "package_sha256": "79a120f2153324a897728adcff05299a9ac918a69d3582e8ad4b5d4bbc6b7ea3",
+      "byte_identical": false,
+      "change": "Absolute local checkout prefix removed from sourceSnapshot."
+    },
+    {
+      "source_path": "experiments/cost_efficiency_pilot_v2/LITERATURE_MATRIX.md",
+      "package_path": "background/LITERATURE_REVIEW_20260923.md",
+      "source_sha256": "a8b950a66a5b86407669cd1db461c3cd87934c79f2c38d0e2cbc9d1f592d2b40",
+      "package_sha256": "efac2d4a7f47f6854a4ecc776113d3d352110a2bb2b27ff9f4fc4be5b70e1f4b",
+      "byte_identical": false,
+      "change": "Replaced old design navigation with current handoff navigation; literature text unchanged."
+    }
+  ]
+}

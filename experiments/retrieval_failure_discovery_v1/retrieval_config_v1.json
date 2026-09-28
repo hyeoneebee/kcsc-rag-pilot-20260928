@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "config_id": "kcsc-pilot-retrieval-config-v1",
+  "status": "pre_registered_before_baseline_scores",
+  "seed": 20260909,
+  "input": {
+    "search_unit": "section_id",
+    "query_fields": [
+      "question"
+    ],
+    "passage_fields": [
+      "code",
+      "document_name",
+      "title",
+      "label",
+      "text_search"
+    ],
+    "passage_template": "[CODE] {code}\n[DOCUMENT] {document_name}\n[SECTION] {title} {label}\n[TEXT] {text_search}",
+    "ancestor_path_in_baseline": false
+  },
+  "lexical": {
+    "engine": "SQLite FTS5",
+    "tokenizer": "trigram",
+    "query_builder": "fts_or_v1",
+    "unicode_normalization": "NFKC",
+    "operator": "OR",
+    "minimum_standalone_characters": 3,
+    "pair_adjacent_short_terms": true,
+    "gold_derived_terms": false,
+    "manual_synonyms": false,
+    "code_is_hard_filter": false,
+    "bm25_column_weights": {
+      "code": 8.0,
+      "document_name": 5.0,
+      "title": 3.0,
+      "label": 2.0,
+      "text_search": 1.0
+    },
+    "top_k": 100,
+    "tie_break": "section_id_ascending"
+  },
+  "dense": {
+    "model": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "mode": "dense_only",
+    "pooling": "cls",
+    "query_max_tokens": 128,
+    "passage_max_tokens": 1024,
+    "truncation": "right_body_after_metadata_prefix",
+    "normalize_embeddings": true,
+    "similarity": "exact_inner_product",
+    "approximate_index": false,
+    "compute_dtype": "float16",
+    "embedding_storage_dtype": "float32",
+    "similarity_accumulation_dtype": "float32",
+    "top_k": 100,
+    "batch_probe_candidates": [1, 2, 4, 8],
+    "tie_break": "section_id_ascending"
+  },
+  "hybrid": {
+    "method": "reciprocal_rank_fusion",
+    "rrf_k0": 60,
+    "deduplicate_by": "section_id",
+    "top_k": 100,
+    "rerank_input_top_k": 50,
+    "tie_break": "section_id_ascending"
+  },
+  "reranker": {
+    "model": "BAAI/bge-reranker-v2-m3",
+    "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+    "pair_max_tokens": 1536,
+    "truncation": "only_second",
+    "score": "raw_logit",
+    "compute_dtype": "float16",
+    "input_top_k": 50,
+    "output_top_k": 20,
+    "batch_probe_candidates": [1, 2, 4],
+    "tie_break": "section_id_ascending"
+  },
+  "evaluation": {
+    "cutoffs": [5, 10, 20],
+    "primary_metric": "required_evidence_recall_at_10",
+    "controls_in_answerable_denominator": false,
+    "store_raw_rankings_top_k": 100
+  }
+}

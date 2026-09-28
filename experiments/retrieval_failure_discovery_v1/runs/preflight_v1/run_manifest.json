@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "run_id": "kcsc-pilot-baselines-v1",
+  "status": "ready_for_baseline_execution",
+  "created_at": "2026-09-11T17:12:28.791514+09:00",
+  "repository": {
+    "git_head": "e2607b9a256543af4f90cc48fe0bc065af176e12",
+    "dirty": false,
+    "code_file_sha256": {
+      "experiments/retrieval_failure_discovery_v1/retrieval_config_v1.json": "e92ae4fd41c4f7cb987f8ba9ae5b60a669e660afe056ee5d00f51673f185f56a",
+      "experiments/retrieval_failure_discovery_v1/scripts/retrieval_config.py": "b39efa398c20bd3ab643d2fc1f44fa37ae62854cc408cd57abc48b49592d3ddf",
+      "experiments/retrieval_failure_discovery_v1/scripts/run_preflight_tests.py": "b3decf6b53866e5f481ed7694e08282fc08b3ce84a840251e2ddc467a5711609",
+      "experiments/retrieval_failure_discovery_v1/scripts/resource_dry_run.py": "0aaad8652447cc54fdd13f129c0f15f60472c1ba233c2646ab7ae9a75a78fb87",
+      "experiments/retrieval_failure_discovery_v1/scripts/run_baselines.py": "bbffe737d24781a4b5fb3c06db61b2a6ebc409da127712de18fd8e31f6d1e56c",
+      "experiments/retrieval_failure_discovery_v1/scripts/freeze_run_manifest.py": "21beb9bfa4d14235de7b18e8ac61b97421f81a39dbc662322e21bcc7cc6c3963",
+      "tests/test_baseline_runner.py": "1ebce7dff837a6a0feb61e26bd29355e61f2019425360ba6b9fe8dffef397cc3",
+      "tests/test_retrieval_config.py": "eb1d791b7a8dfb9c8adab06ba3387f5500031addc7dd156f8bf5675075d2af46"
+    }
+  },
+  "data": {
+    "freeze_id": "kcsc-retrieval-failure-discovery-v1",
+    "database_path": "data/processed/2026-08-12-full/kcsc.sqlite3",
+    "database_sha256": "ea89f8473efcba36aa0d913849c2e5bae2df95deb8a44f0852f7bd839c673968",
+    "normalized_questions_path": "experiments/retrieval_failure_discovery_v1/frozen_inputs/v1/normalized_questions.jsonl",
+    "normalized_questions_sha256": "fa35ef0eea4c5a8832d4cff285f13540245b66fda91b5b648f64875eac07f97e",
+    "question_partition": {
+      "total": 48,
+      "answerable_retrieval": 46,
+      "answerability_control": 2,
+      "visual_gold_reviewed": 2,
+      "gold_references": 57,
+      "unique_gold_sections": 57
+    }
+  },
+  "retrieval_config": {
+    "schema_version": 1,
+    "config_id": "kcsc-pilot-retrieval-config-v1",
+    "status": "pre_registered_before_baseline_scores",
+    "seed": 20260909,
+    "input": {
+      "search_unit": "section_id",
+      "query_fields": [
+        "question"
+      ],
+      "passage_fields": [
+        "code",
+        "document_name",
+        "title",
+        "label",
+        "text_search"
+      ],
+      "passage_template": "[CODE] {code}\n[DOCUMENT] {document_name}\n[SECTION] {title} {label}\n[TEXT] {text_search}",
+      "ancestor_path_in_baseline": false
+    },
+    "lexical": {
+      "engine": "SQLite FTS5",
+      "tokenizer": "trigram",
+      "query_builder": "fts_or_v1",
+      "unicode_normalization": "NFKC",
+      "operator": "OR",
+      "minimum_standalone_characters": 3,
+      "pair_adjacent_short_terms": true,
+      "gold_derived_terms": false,
+      "manual_synonyms": false,
+      "code_is_hard_filter": false,
+      "bm25_column_weights": {
+        "code": 8.0,
+        "document_name": 5.0,
+        "title": 3.0,
+        "label": 2.0,
+        "text_search": 1.0
+      },
+      "top_k": 100,
+      "tie_break": "section_id_ascending"
+    },
+    "dense": {
+      "model": "BAAI/bge-m3",
+      "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+      "mode": "dense_only",
+      "pooling": "cls",
+      "query_max_tokens": 128,
+      "passage_max_tokens": 1024,
+      "truncation": "right_body_after_metadata_prefix",
+      "normalize_embeddings": true,
+      "similarity": "exact_inner_product",
+      "approximate_index": false,
+      "compute_dtype": "float16",
+      "embedding_storage_dtype": "float32",
+      "similarity_accumulation_dtype": "float32",
+      "top_k": 100,
+      "batch_probe_candidates": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "tie_break": "section_id_ascending"
+    },
+    "hybrid": {
+      "method": "reciprocal_rank_fusion",
+      "rrf_k0": 60,
+      "deduplicate_by": "section_id",
+      "top_k": 100,
+      "rerank_input_top_k": 50,
+      "tie_break": "section_id_ascending"
+    },
+    "reranker": {
+      "model": "BAAI/bge-reranker-v2-m3",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "pair_max_tokens": 1536,
+      "truncation": "only_second",
+      "score": "raw_logit",
+      "compute_dtype": "float16",
+      "input_top_k": 50,
+      "output_top_k": 20,
+      "batch_probe_candidates": [
+        1,
+        2,
+        4
+      ],
+      "tie_break": "section_id_ascending"
+    },
+    "evaluation": {
+      "cutoffs": [
+        5,
+        10,
+        20
+      ],
+      "primary_metric": "required_evidence_recall_at_10",
+      "controls_in_answerable_denominator": false,
+      "store_raw_rankings_top_k": 100
+    }
+  },
+  "retrieval_config_sha256": "e92ae4fd41c4f7cb987f8ba9ae5b60a669e660afe056ee5d00f51673f185f56a",
+  "pre_run_gates": {
+    "unit_tests": {
+      "status": "pass",
+      "tests_run": 40,
+      "report_path": "experiments/retrieval_failure_discovery_v1/runs/preflight_v1/unit_tests.json",
+      "report_sha256": "c06adf470a5121579ae2df224085eb7bf29aacbb570565fd92b0520e211d989e"
+    },
+    "resource_dry_run": {
+      "status": "pass",
+      "report_path": "experiments/retrieval_failure_discovery_v1/runs/preflight_v1/resource_dry_run.json",
+      "report_sha256": "5a4e03a1b211c84fa23166ace81b97810d7d476ae0fcb951ee75232da7edc1f4",
+      "hardware": {
+        "available": true,
+        "device_index": 0,
+        "name": "NVIDIA GeForce RTX 3090",
+        "total_memory_mib": 24124.2,
+        "cuda_runtime": "13.0",
+        "driver_version": "595.84"
+      },
+      "dense_batch_size": 8,
+      "reranker_batch_size": 4
+    }
+  },
+  "runtime": {
+    "python": "3.12.3",
+    "platform": "Linux-7.0.0-28-generic-x86_64-with-glibc2.39",
+    "sqlite": "3.45.1",
+    "packages": {
+      "torch": "2.13.0",
+      "transformers": "5.15.1",
+      "sentence-transformers": "6.0.0",
+      "huggingface-hub": "1.28.0"
+    }
+  },
+  "execution_state": {
+    "baseline_scores_observed": false,
+    "retrieval_started": false
+  },
+  "manifest_payload_sha256": "eba2aceeb377be772141258e2b8c86cf5aa4b73f691ddc4b6420e6edaf7299bf"
+}

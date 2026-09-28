@@ -1,0 +1,31 @@
+{
+  "buildSchemaVersion": 1,
+  "builderGitCommit": "b71affc8c397e20d3ec82cc70fbb921c90bb5422",
+  "databaseBytes": 652783616,
+  "databaseCounts": {
+    "anomalies": 60,
+    "categories": 4487,
+    "document_categories": 18456,
+    "documents": 3576,
+    "searchable_sections": 557027,
+    "sections": 557749
+  },
+  "databaseSha256": "ea89f8473efcba36aa0d913849c2e5bae2df95deb8a44f0852f7bd839c673968",
+  "documentStatusCounts": {
+    "empty": 53,
+    "identity_mismatch": 3,
+    "saved": 3520
+  },
+  "durationSeconds": 53.099,
+  "finishedAt": "2026-08-13T14:54:33.689732+09:00",
+  "foreignKeyViolationCount": 0,
+  "ftsTokenizer": "trigram",
+  "htmlPolicy": "Original HTML is preserved; only derived text is indexed",
+  "label": "2026-08-12-full",
+  "quarantinePolicy": "identity_mismatch and schema_error documents are preserved but excluded from search",
+  "sourceCatalogCount": 3576,
+  "sourceManifestSha256": "bf823d1926e85b2abf92a1146441a79bc0e60ac29540318ae8e6a880f260a987",
+  "sourceSnapshot": "data/snapshots/2026-08-12-full",
+  "sqliteIntegrityCheck": "ok",
+  "startedAt": "2026-08-13T14:53:40.590326+09:00"
+}

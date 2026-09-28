@@ -1,0 +1,36 @@
+{
+  "dataset_version": "evidence_response_pilot_v4_20260928",
+  "n": 48,
+  "primary_types": {
+    "direct_single_clause": 12,
+    "applicability_near_miss": 12,
+    "multi_evidence": 12,
+    "reference_following": 12
+  },
+  "source_families": {
+    "KDS": 9,
+    "KCS": 11,
+    "EXCS": 5,
+    "KRACS": 2,
+    "KRCCS": 5,
+    "KWCS": 3,
+    "LHCS": 4,
+    "NHCS": 3,
+    "SMCS": 6
+  },
+  "source_question_sha256": "ff70aa67b05c159e80bdb5bdccb05ce1ebd1c9f6a2af5093d90cd165c6b1e17e",
+  "question_sha256": "ac11a55f2c21d458a24b5bfed7cb3af4f16eea90b1e42bfd8483bafd24fceb2c",
+  "database_sha256": "ea89f8473efcba36aa0d913849c2e5bae2df95deb8a44f0852f7bd839c673968",
+  "revised_questions": 12,
+  "unchanged_queries": 36,
+  "selection": "All-corpus purposive capability-balanced pilot. No railway quota or exclusion. Retained prior whole-corpus candidate set; no selection on current outcomes.",
+  "reference_definition": "Distinct requested facts across explicitly linked provisions, not proof that a particular tool path is necessary.",
+  "human_validation": "No new human review, per user instruction. Prior MUL-12 approval is provenance, not dataset-wide approval.",
+  "limitations": [
+    "AI author and AI verifier are not independent",
+    "Existing non-reference questions previously exposed",
+    "Same-code exact-text alternatives only; semantic incompleteness remains",
+    "48 purposive questions do not estimate real-user prevalence",
+    "Text-section retrieval only; no generated-answer scoring"
+  ]
+}

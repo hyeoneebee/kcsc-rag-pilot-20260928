@@ -1,0 +1,148 @@
+{
+  "started_at": "2026-09-27T06:46:53.454468+00:00",
+  "seed": 20260927,
+  "repeats": 2,
+  "question_sha256": "da9878e0e10d060e8a9b82206987f79a754c0b50c2c7b9ee6e8c4da56f00b56e",
+  "git_head": "e2607b9a256543af4f90cc48fe0bc065af176e12",
+  "code_hashes": {
+    "experiments/response_selection_pilot_v3/run_local.py": "9aac89f7989816802a3da6632fc75e2ca267802227f953cbdc3fb51e921ec2d9",
+    "experiments/response_selection_pilot_v3/selection_core.py": "37c7b3fd980d5adc903276fde8335121f03517aff335f784bf28d74092b7862e",
+    "experiments/retrieval_failure_discovery_v1/scripts/run_baselines.py": "bbffe737d24781a4b5fb3c06db61b2a6ebc409da127712de18fd8e31f6d1e56c",
+    "experiments/retrieval_failure_discovery_v1/scripts/retrieval_config.py": "b39efa398c20bd3ab643d2fc1f44fa37ae62854cc408cd57abc48b49592d3ddf"
+  },
+  "nvidia_smi": "Sun Sep 27 15:46:53 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 595.84                 Driver Version: 595.84         CUDA Version: 13.2     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 3090        Off |   00000000:09:00.0  On |                  N/A |\n|  0%   50C    P8             17W /  350W |     545MiB /  24576MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n[Process names and PIDs omitted in handoff copy.]\n",
+  "runtime_versions": {
+    "torch": "2.13.0+cu130",
+    "numpy": "2.5.2"
+  },
+  "cost": {
+    "external_api_calls": 0,
+    "external_api_cost_usd": 0,
+    "electricity_hardware_cost_usd": null
+  },
+  "timing_scope": "resident-model query embedding + dense + features + one action; component-summed counterfactual, excludes evaluation and other actions",
+  "setup_seconds": 8.500818632775918,
+  "warmup_seconds": 1.1294447530526668,
+  "completed_at": "2026-09-27T06:48:24.762717+00:00",
+  "wall_seconds": 91.30898155178875,
+  "peak_cuda_allocated_bytes": 4708995584,
+  "status": "COMPLETED_AI_DRAFT_EXPLORATORY",
+  "effective_runtime_overrides_postrun_annotation": {
+    "note": "The config object below is inherited source configuration, not a new formal preregistration. Actual runner settings are explicit in hashed run_local.py.",
+    "seed": 20260927,
+    "dense_query_batch_size": 1,
+    "reranker_batch_size": 4,
+    "reranker_input_limit": 50,
+    "reranker_saved_output_limit": 50,
+    "evaluation_cutoffs": [
+      5,
+      10,
+      15
+    ],
+    "reference_initial_sources": 5,
+    "reference_max_matches_per_source": 3,
+    "reference_max_targets_per_match": 20,
+    "split_max_extra_queries": 2,
+    "annotation_date": "2026-09-27"
+  },
+  "config": {
+    "schema_version": 1,
+    "config_id": "kcsc-pilot-retrieval-config-v1",
+    "status": "pre_registered_before_baseline_scores",
+    "seed": 20260909,
+    "input": {
+      "search_unit": "section_id",
+      "query_fields": [
+        "question"
+      ],
+      "passage_fields": [
+        "code",
+        "document_name",
+        "title",
+        "label",
+        "text_search"
+      ],
+      "passage_template": "[CODE] {code}\n[DOCUMENT] {document_name}\n[SECTION] {title} {label}\n[TEXT] {text_search}",
+      "ancestor_path_in_baseline": false
+    },
+    "lexical": {
+      "engine": "SQLite FTS5",
+      "tokenizer": "trigram",
+      "query_builder": "fts_or_v1",
+      "unicode_normalization": "NFKC",
+      "operator": "OR",
+      "minimum_standalone_characters": 3,
+      "pair_adjacent_short_terms": true,
+      "gold_derived_terms": false,
+      "manual_synonyms": false,
+      "code_is_hard_filter": false,
+      "bm25_column_weights": {
+        "code": 8.0,
+        "document_name": 5.0,
+        "title": 3.0,
+        "label": 2.0,
+        "text_search": 1.0
+      },
+      "top_k": 100,
+      "tie_break": "section_id_ascending"
+    },
+    "dense": {
+      "model": "BAAI/bge-m3",
+      "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+      "mode": "dense_only",
+      "pooling": "cls",
+      "query_max_tokens": 128,
+      "passage_max_tokens": 1024,
+      "truncation": "right_body_after_metadata_prefix",
+      "normalize_embeddings": true,
+      "similarity": "exact_inner_product",
+      "approximate_index": false,
+      "compute_dtype": "float16",
+      "embedding_storage_dtype": "float32",
+      "similarity_accumulation_dtype": "float32",
+      "top_k": 100,
+      "batch_probe_candidates": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "tie_break": "section_id_ascending",
+      "batch_size": 1
+    },
+    "hybrid": {
+      "method": "reciprocal_rank_fusion",
+      "rrf_k0": 60,
+      "deduplicate_by": "section_id",
+      "top_k": 100,
+      "rerank_input_top_k": 50,
+      "tie_break": "section_id_ascending"
+    },
+    "reranker": {
+      "model": "BAAI/bge-reranker-v2-m3",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "pair_max_tokens": 1536,
+      "truncation": "only_second",
+      "score": "raw_logit",
+      "compute_dtype": "float16",
+      "input_top_k": 50,
+      "output_top_k": 20,
+      "batch_probe_candidates": [
+        1,
+        2,
+        4
+      ],
+      "tie_break": "section_id_ascending"
+    },
+    "evaluation": {
+      "cutoffs": [
+        5,
+        10,
+        20
+      ],
+      "primary_metric": "required_evidence_recall_at_10",
+      "controls_in_answerable_denominator": false,
+      "store_raw_rankings_top_k": 100
+    }
+  }
+}

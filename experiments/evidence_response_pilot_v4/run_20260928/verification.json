@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "checks": {
+    "unique_questions_and_rows": true,
+    "balanced_four_types": true,
+    "frozen_input_hashes": true,
+    "executed_code_hashes": true,
+    "source_code_hashes": true,
+    "metric_matrix_complete": true,
+    "reused_records_exact_unchanged": true,
+    "all_288_question_action_pairs_repeat_top15_match": true,
+    "all_1728_repeat_cutoff_scores_independent_match": true,
+    "candidate_and_query_budgets": true,
+    "no_query_truncation": true,
+    "all_48_gold_original_passages_match": true,
+    "all_12_reference_code_links_exist": true,
+    "all_returned_ids_exist_in_corpus": true,
+    "aggregate_transition_and_latency_recomputed": true,
+    "reference_intervention_trace_not_just_rerank": true,
+    "no_new_model_calls_on_unchanged_queries": true
+  },
+  "source_semantic_audit": "AI source comparison, not independent expert validation",
+  "reproducibility": "288 question-action top15 pairs match two repetitions; cached repeats not re-inferred",
+  "rows": 576,
+  "scored_rows": 864,
+  "returned_unique_ids": 5426,
+  "statistical_fallacies_checked": {
+    "Simpson": "전체와 네 유형을 병기; 일별 시간과 유형이 겹치므로 유형 간 속도 원인을 추정하지 않음",
+    "Ecological": "문항 단위 결과이며 전체 건설 사용자로 일반화하지 않음",
+    "Berkson": "목적 표집·기존 문항 노출 한계를 명시; 새 결과로 실패 문항을 골라 넣지 않음",
+    "Collider": "전체48개 결과를 보존; 기본 실패별 표는 조건부 기술통계임",
+    "Base rate": "유형 균형은 실제 질문 빈도가 아님; 회복/악화 분모를 분리",
+    "Regression to mean": "동일 질문·같은 기본 결과의 paired 비교; 반복을 독립 표본으로 세지 않음",
+    "Survivorship": "48개×6방법 모두 포함; 실패/무효 분리 실행도 누락하지 않음",
+    "Look elsewhere": "Top5/10/15와 모든6방법 전부 공개; p값/유의성 선별 없음",
+    "Forking paths": "질문과 비교조건을 새 결과 전에 해시 고정; 이전 결과 노출과 후속 해석 표시",
+    "Correlation causation": "작업 적용 결과와 근본 실패 원인을 구분; 인과 진단 성능을 주장하지 않음",
+    "Reverse causality": "기본 결과 후 작업 적용 순서 명시; 사후 실패 태그는 모델 입력 아님"
+  },
+  "human_review": false,
+  "limitations": [
+    "Same-model AI authorship and verification",
+    "Semantic alternatives not exhaustive",
+    "Mixed-session component timings, not dedicated E2E latency",
+    "Purposive48, no population inference"
+  ],
+  "verifier_sha256": "bd60a9ba0c6af753fcc96bccb3905c778dc99189691a6c9af951c92fca9bb3e4",
+  "non_inference_issue": "Report-renderer bracket syntax errors corrected before analysis; inference artifacts unchanged; no inference retries"
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv*/
+.env
+.env.*
+*.sqlite3
+*.db
+*.npy
+*.npz
+*.safetensors
+*.pt
+*.pth
+*.pem
+*.key
+.DS_Store

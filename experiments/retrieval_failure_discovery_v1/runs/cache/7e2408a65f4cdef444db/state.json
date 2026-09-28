@@ -1,0 +1,15 @@
+{
+  "section_count": 557027,
+  "section_ids_sha256": "61cb97be9d449ef543395d5c5e65dc87b5943a4e80c274543fd6e99af024f966",
+  "model": "BAAI/bge-m3",
+  "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "pooling": "cls",
+  "passage_max_tokens": 1024,
+  "dtype": "float32",
+  "status": "complete",
+  "embedding_dimension": 1024,
+  "completed_sections": 557027,
+  "completed_at": "2026-09-11T17:32:25.830372+09:00",
+  "embedding_file": "experiments/retrieval_failure_discovery_v1/runs/cache/7e2408a65f4cdef444db/passages.f32.npy",
+  "embedding_file_sha256": "a0181f8a44fe77cdb129669326001008d57853c9ccadc96922a8d291987bd3d8"
+}

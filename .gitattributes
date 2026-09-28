@@ -1,0 +1,3 @@
+# Preserve exact bytes: scientific artifact hashes include original line endings.
+* -text
+*.csv whitespace=cr-at-eol

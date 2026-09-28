@@ -1,0 +1,146 @@
+{
+  "status": "HANDOFF_ANNOTATION_OF_EXECUTED_V4_NOT_A_NEW_RUN",
+  "evidence": [
+    "v4/PROTOCOL.md",
+    "v4/run_incremental.py",
+    "v3/run_local.py",
+    "v4/run_20260928/manifest.json"
+  ],
+  "dataset_version": "evidence_response_pilot_v4_20260928",
+  "n_questions": 48,
+  "seed": 20260927,
+  "repeats": 2,
+  "actions": [
+    "STOP",
+    "RERANK",
+    "REFERENCE",
+    "SPLIT",
+    "HYBRID_RERANK",
+    "KEEP3"
+  ],
+  "evaluation_cutoffs": [
+    5,
+    10,
+    15
+  ],
+  "primary_metric": "complete_evidence_success_at_10",
+  "corpus": {
+    "snapshot": "2026-08-12-full",
+    "documents": 3520,
+    "sections": 557027,
+    "database_sha256": "ea89f8473efcba36aa0d913849c2e5bae2df95deb8a44f0852f7bd839c673968"
+  },
+  "input": {
+    "search_unit": "section_id",
+    "query_fields": [
+      "question"
+    ],
+    "passage_fields": [
+      "code",
+      "document_name",
+      "title",
+      "label",
+      "text_search"
+    ],
+    "passage_template": "[CODE] {code}\n[DOCUMENT] {document_name}\n[SECTION] {title} {label}\n[TEXT] {text_search}",
+    "ancestor_path_in_baseline": false
+  },
+  "lexical": {
+    "engine": "SQLite FTS5",
+    "tokenizer": "trigram",
+    "query_builder": "fts_or_v1",
+    "unicode_normalization": "NFKC",
+    "operator": "OR",
+    "minimum_standalone_characters": 3,
+    "pair_adjacent_short_terms": true,
+    "gold_derived_terms": false,
+    "manual_synonyms": false,
+    "code_is_hard_filter": false,
+    "bm25_column_weights": {
+      "code": 8.0,
+      "document_name": 5.0,
+      "title": 3.0,
+      "label": 2.0,
+      "text_search": 1.0
+    },
+    "top_k": 100,
+    "tie_break": "section_id_ascending"
+  },
+  "dense": {
+    "model": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "mode": "dense_only",
+    "pooling": "cls",
+    "query_max_tokens": 128,
+    "passage_max_tokens": 1024,
+    "truncation": "right_body_after_metadata_prefix",
+    "normalize_embeddings": true,
+    "similarity": "exact_inner_product",
+    "approximate_index": false,
+    "compute_dtype": "float16",
+    "embedding_storage_dtype": "float32",
+    "similarity_accumulation_dtype": "float32",
+    "top_k": 100,
+    "batch_probe_candidates": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "tie_break": "section_id_ascending",
+    "batch_size": 1
+  },
+  "hybrid": {
+    "method": "reciprocal_rank_fusion",
+    "rrf_k0": 60,
+    "deduplicate_by": "section_id",
+    "top_k": 100,
+    "rerank_input_top_k": 50,
+    "tie_break": "section_id_ascending"
+  },
+  "reranker": {
+    "model": "BAAI/bge-reranker-v2-m3",
+    "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+    "pair_max_tokens": 1536,
+    "truncation": "only_second",
+    "score": "raw_logit",
+    "compute_dtype": "float16",
+    "input_top_k": 50,
+    "output_top_k": 50,
+    "batch_probe_candidates": [
+      1,
+      2,
+      4
+    ],
+    "tie_break": "section_id_ascending",
+    "batch_size": 4
+  },
+  "reference": {
+    "source_top_k": 5,
+    "max_code_matches_per_source": 3,
+    "targets_per_match": 20,
+    "hops": 1,
+    "merged_candidates": 50
+  },
+  "split": {
+    "max_extra_queries": 2,
+    "per_query_top_k": 100,
+    "merged_candidates": 50,
+    "method": "frozen connective regex"
+  },
+  "keep3": {
+    "preserve_initial": 3,
+    "candidate_limit": 50,
+    "extra_model_calls": 0
+  },
+  "runtime_recorded": {
+    "torch": "2.13.0+cu130",
+    "numpy": "2.5.2"
+  },
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "driver": "595.84",
+  "timing_scope": "query embedding+dense+one response; component-summed wall time, excludes unused selector features, cache I/O, evaluation; old and new sessions reported separately",
+  "external_api_calls": 0,
+  "measured_currency_cost": null,
+  "warning": "source_config/effective_config inside the original run manifest retain old evaluation fields; see docs/EXPERIMENT_CONDITIONS.md"
+}

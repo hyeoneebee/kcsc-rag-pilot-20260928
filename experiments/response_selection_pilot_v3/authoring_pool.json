@@ -1,0 +1,4007 @@
+{
+  "seed": 20260927,
+  "excluded_current_gold_codes": [
+    "EXCS 112005",
+    "EXCS 414801",
+    "KCS 102020",
+    "KCS 142010",
+    "KCS 243125",
+    "KCS 312010",
+    "KCS 415403",
+    "KCS 471020",
+    "KCS 471060",
+    "KCS 471065",
+    "KCS 471075",
+    "KCS 471080",
+    "KCS 472010",
+    "KCS 472020",
+    "KCS 472040",
+    "KCS 477030",
+    "KDS 111015",
+    "KDS 113005",
+    "KDS 115005",
+    "KDS 115030",
+    "KDS 116000",
+    "KDS 448000",
+    "KDS 471020",
+    "KDS 471025",
+    "KDS 471040",
+    "KDS 471055",
+    "KDS 471070",
+    "KDS 471075",
+    "KDS 477050",
+    "KDS 477060",
+    "KDS 478030",
+    "KDS 479010",
+    "KRACS 471005",
+    "KRACS 471020",
+    "KRACS 471025",
+    "KRACS 471030",
+    "KRACS 471050",
+    "KRACS 471060",
+    "KRACS 471065",
+    "KRACS 471085",
+    "KRACS 472010",
+    "KRCCS 679518",
+    "KWCS 317530",
+    "LHCS 313515",
+    "NHCS 243000",
+    "SMCS 31901550"
+  ],
+  "pool": {
+    "KDS": [
+      {
+        "section_id": 94310,
+        "document_id": 338,
+        "code": "KDS 473010",
+        "document_name": "전철전력설계 일반사항",
+        "title": "1.1 목적",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 4
+      },
+      {
+        "section_id": 94313,
+        "document_id": 338,
+        "code": "KDS 473010",
+        "document_name": "전철전력설계 일반사항",
+        "title": "1.2 적용범위",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 7
+      },
+      {
+        "section_id": 94314,
+        "document_id": 338,
+        "code": "KDS 473010",
+        "document_name": "전철전력설계 일반사항",
+        "title": "1.2 적용범위",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 8
+      },
+      {
+        "section_id": 94315,
+        "document_id": 338,
+        "code": "KDS 473010",
+        "document_name": "전철전력설계 일반사항",
+        "title": "1.2 적용범위",
+        "label": "(4)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 9
+      },
+      {
+        "section_id": 94316,
+        "document_id": 338,
+        "code": "KDS 473010",
+        "document_name": "전철전력설계 일반사항",
+        "title": "1.2 적용범위",
+        "label": "(5)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 10
+      },
+      {
+        "section_id": 94392,
+        "document_id": 338,
+        "code": "KDS 473010",
+        "document_name": "전철전력설계 일반사항",
+        "title": "4.3.1 설계속도",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 86
+      },
+      {
+        "section_id": 94394,
+        "document_id": 338,
+        "code": "KDS 473010",
+        "document_name": "전철전력설계 일반사항",
+        "title": "4.3.2 기상조건",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 88
+      },
+      {
+        "section_id": 94396,
+        "document_id": 338,
+        "code": "KDS 473010",
+        "document_name": "전철전력설계 일반사항",
+        "title": "4.3.2 기상조건",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 90
+      },
+      {
+        "section_id": 100720,
+        "document_id": 394,
+        "code": "KDS 511405",
+        "document_name": "하천유역종합 계획",
+        "title": "1.2 적용 범위",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 5
+      },
+      {
+        "section_id": 100746,
+        "document_id": 394,
+        "code": "KDS 511405",
+        "document_name": "하천유역종합 계획",
+        "title": "2.1.1 계획의 목표",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 31
+      },
+      {
+        "section_id": 100747,
+        "document_id": 394,
+        "code": "KDS 511405",
+        "document_name": "하천유역종합 계획",
+        "title": "2.1.1 계획의 목표",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 32
+      },
+      {
+        "section_id": 100750,
+        "document_id": 394,
+        "code": "KDS 511405",
+        "document_name": "하천유역종합 계획",
+        "title": "2.1.2 하천기능과 하천계획",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 35
+      },
+      {
+        "section_id": 100751,
+        "document_id": 394,
+        "code": "KDS 511405",
+        "document_name": "하천유역종합 계획",
+        "title": "2.1.2 하천기능과 하천계획",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 36
+      },
+      {
+        "section_id": 100756,
+        "document_id": 394,
+        "code": "KDS 511405",
+        "document_name": "하천유역종합 계획",
+        "title": "2.1.4 계획의 구성",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 41
+      },
+      {
+        "section_id": 100759,
+        "document_id": 394,
+        "code": "KDS 511405",
+        "document_name": "하천유역종합 계획",
+        "title": "2.2.1 세부계획의 구성",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 44
+      },
+      {
+        "section_id": 100760,
+        "document_id": 394,
+        "code": "KDS 511405",
+        "document_name": "하천유역종합 계획",
+        "title": "2.2.1 세부계획의 구성",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 45
+      },
+      {
+        "section_id": 111392,
+        "document_id": 450,
+        "code": "KDS 576000",
+        "document_name": "송수시설 설계기준",
+        "title": "1.1. 기본사항",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 3
+      },
+      {
+        "section_id": 111393,
+        "document_id": 450,
+        "code": "KDS 576000",
+        "document_name": "송수시설 설계기준",
+        "title": "1.1. 기본사항",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 4
+      },
+      {
+        "section_id": 111394,
+        "document_id": 450,
+        "code": "KDS 576000",
+        "document_name": "송수시설 설계기준",
+        "title": "1.1. 기본사항",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 5
+      },
+      {
+        "section_id": 111395,
+        "document_id": 450,
+        "code": "KDS 576000",
+        "document_name": "송수시설 설계기준",
+        "title": "1.1. 기본사항",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 6
+      },
+      {
+        "section_id": 111396,
+        "document_id": 450,
+        "code": "KDS 576000",
+        "document_name": "송수시설 설계기준",
+        "title": "1.1. 기본사항",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 7
+      },
+      {
+        "section_id": 111397,
+        "document_id": 450,
+        "code": "KDS 576000",
+        "document_name": "송수시설 설계기준",
+        "title": "1.1. 기본사항",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 8
+      },
+      {
+        "section_id": 111400,
+        "document_id": 450,
+        "code": "KDS 576000",
+        "document_name": "송수시설 설계기준",
+        "title": "1.2 계획송수량",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 11
+      },
+      {
+        "section_id": 111402,
+        "document_id": 450,
+        "code": "KDS 576000",
+        "document_name": "송수시설 설계기준",
+        "title": "1.3 송수방식",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 13
+      }
+    ],
+    "KCS": [
+      {
+        "section_id": 259688,
+        "document_id": 1220,
+        "code": "KCS 577040",
+        "document_name": "상수도 쉴드TBM공사",
+        "title": "1.1 적용범위",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 4
+      },
+      {
+        "section_id": 259689,
+        "document_id": 1220,
+        "code": "KCS 577040",
+        "document_name": "상수도 쉴드TBM공사",
+        "title": "1.1 적용범위",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 5
+      },
+      {
+        "section_id": 259696,
+        "document_id": 1220,
+        "code": "KCS 577040",
+        "document_name": "상수도 쉴드TBM공사",
+        "title": "1.4 제출물",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 12
+      },
+      {
+        "section_id": 259704,
+        "document_id": 1220,
+        "code": "KCS 577040",
+        "document_name": "상수도 쉴드TBM공사",
+        "title": "1.4.1.1 시공계획",
+        "label": "(6)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 20
+      },
+      {
+        "section_id": 259707,
+        "document_id": 1220,
+        "code": "KCS 577040",
+        "document_name": "상수도 쉴드TBM공사",
+        "title": "1.4.1.2 시공계획시 고려사항",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 23
+      },
+      {
+        "section_id": 259710,
+        "document_id": 1220,
+        "code": "KCS 577040",
+        "document_name": "상수도 쉴드TBM공사",
+        "title": "1.4.1.2 시공계획시 고려사항",
+        "label": "(5)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 26
+      },
+      {
+        "section_id": 259713,
+        "document_id": 1220,
+        "code": "KCS 577040",
+        "document_name": "상수도 쉴드TBM공사",
+        "title": "1.4.1.3 시공계획 작성원칙",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 29
+      },
+      {
+        "section_id": 259717,
+        "document_id": 1220,
+        "code": "KCS 577040",
+        "document_name": "상수도 쉴드TBM공사",
+        "title": "1.4.1.4 공정계획",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 33
+      },
+      {
+        "section_id": 236547,
+        "document_id": 1104,
+        "code": "KCS 448015",
+        "document_name": "환경관리",
+        "title": "1.1.1 비산먼지 방지시설",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 4
+      },
+      {
+        "section_id": 236551,
+        "document_id": 1104,
+        "code": "KCS 448015",
+        "document_name": "환경관리",
+        "title": "1.1.3 토사유출 저감시설",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 8
+      },
+      {
+        "section_id": 236554,
+        "document_id": 1104,
+        "code": "KCS 448015",
+        "document_name": "환경관리",
+        "title": "1.1.4 가설사무실 오수 처리시설",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 11
+      },
+      {
+        "section_id": 236556,
+        "document_id": 1104,
+        "code": "KCS 448015",
+        "document_name": "환경관리",
+        "title": "1.1.4 가설사무실 오수 처리시설",
+        "label": "(4)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 13
+      },
+      {
+        "section_id": 236577,
+        "document_id": 1104,
+        "code": "KCS 448015",
+        "document_name": "환경관리",
+        "title": "1.2.1 비산먼지 방지시설",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 34
+      },
+      {
+        "section_id": 236614,
+        "document_id": 1104,
+        "code": "KCS 448015",
+        "document_name": "환경관리",
+        "title": "1.2.3 토사유출 저감시설",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 71
+      },
+      {
+        "section_id": 236649,
+        "document_id": 1104,
+        "code": "KCS 448015",
+        "document_name": "환경관리",
+        "title": "1.4.1 환경관리공사 일반",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 106
+      },
+      {
+        "section_id": 236651,
+        "document_id": 1104,
+        "code": "KCS 448015",
+        "document_name": "환경관리",
+        "title": "1.4.1 환경관리공사 일반",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 108
+      },
+      {
+        "section_id": 213008,
+        "document_id": 954,
+        "code": "KCS 413402",
+        "document_name": "벽돌공사",
+        "title": "1.1 적용범위",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 3
+      },
+      {
+        "section_id": 213009,
+        "document_id": 954,
+        "code": "KCS 413402",
+        "document_name": "벽돌공사",
+        "title": "1.1 적용범위",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 4
+      },
+      {
+        "section_id": 213034,
+        "document_id": 954,
+        "code": "KCS 413402",
+        "document_name": "벽돌공사",
+        "title": "2.3 시멘트, 소석회, 모래 및 안료 기타",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 29
+      },
+      {
+        "section_id": 213037,
+        "document_id": 954,
+        "code": "KCS 413402",
+        "document_name": "벽돌공사",
+        "title": "2.4 골재",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 32
+      },
+      {
+        "section_id": 213039,
+        "document_id": 954,
+        "code": "KCS 413402",
+        "document_name": "벽돌공사",
+        "title": "2.4 골재",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 34
+      },
+      {
+        "section_id": 213041,
+        "document_id": 954,
+        "code": "KCS 413402",
+        "document_name": "벽돌공사",
+        "title": "2.4 골재",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 36
+      },
+      {
+        "section_id": 213043,
+        "document_id": 954,
+        "code": "KCS 413402",
+        "document_name": "벽돌공사",
+        "title": "2.5 모르타르, 콘크리트용 혼합수",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 38
+      },
+      {
+        "section_id": 213046,
+        "document_id": 954,
+        "code": "KCS 413402",
+        "document_name": "벽돌공사",
+        "title": "2.6 혼화 재료",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 41
+      }
+    ],
+    "EXCS": [
+      {
+        "section_id": 384195,
+        "document_id": 2586,
+        "code": "EXCS 449935",
+        "document_name": "표면처리 공법",
+        "title": "1.1.1 다이아몬드 그라인딩",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 4
+      },
+      {
+        "section_id": 384197,
+        "document_id": 2586,
+        "code": "EXCS 449935",
+        "document_name": "표면처리 공법",
+        "title": "1.1.2 고성능 포장 표면처리",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 6
+      },
+      {
+        "section_id": 384203,
+        "document_id": 2586,
+        "code": "EXCS 449935",
+        "document_name": "표면처리 공법",
+        "title": "1.4 공사관리",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 12
+      },
+      {
+        "section_id": 384213,
+        "document_id": 2586,
+        "code": "EXCS 449935",
+        "document_name": "표면처리 공법",
+        "title": "1.6.1 다이아몬드 그라인딩",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 22
+      },
+      {
+        "section_id": 384226,
+        "document_id": 2586,
+        "code": "EXCS 449935",
+        "document_name": "표면처리 공법",
+        "title": "3.1.1 장비",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 35
+      },
+      {
+        "section_id": 384227,
+        "document_id": 2586,
+        "code": "EXCS 449935",
+        "document_name": "표면처리 공법",
+        "title": "3.1.1 장비",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 36
+      },
+      {
+        "section_id": 384228,
+        "document_id": 2586,
+        "code": "EXCS 449935",
+        "document_name": "표면처리 공법",
+        "title": "3.1.1 장비",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 37
+      },
+      {
+        "section_id": 384231,
+        "document_id": 2586,
+        "code": "EXCS 449935",
+        "document_name": "표면처리 공법",
+        "title": "3.1.2 작업준비",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 40
+      },
+      {
+        "section_id": 375607,
+        "document_id": 2539,
+        "code": "EXCS 414901",
+        "document_name": "금속공사 일반(부대시설편)",
+        "title": "1.1.2 경량천장설치 ",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 6
+      },
+      {
+        "section_id": 375609,
+        "document_id": 2539,
+        "code": "EXCS 414901",
+        "document_name": "금속공사 일반(부대시설편)",
+        "title": "1.1.3 스페이스 프레임공사 ",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 8
+      },
+      {
+        "section_id": 375613,
+        "document_id": 2539,
+        "code": "EXCS 414901",
+        "document_name": "금속공사 일반(부대시설편)",
+        "title": "1.1.5 잡철물 제작설치 ",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 12
+      },
+      {
+        "section_id": 375665,
+        "document_id": 2539,
+        "code": "EXCS 414901",
+        "document_name": "금속공사 일반(부대시설편)",
+        "title": "1.3.3 스페이스 프레임공사 ",
+        "label": "②",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 64
+      },
+      {
+        "section_id": 375669,
+        "document_id": 2539,
+        "code": "EXCS 414901",
+        "document_name": "금속공사 일반(부대시설편)",
+        "title": "1.3.3 스페이스 프레임공사 ",
+        "label": "⑥",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 68
+      },
+      {
+        "section_id": 375670,
+        "document_id": 2539,
+        "code": "EXCS 414901",
+        "document_name": "금속공사 일반(부대시설편)",
+        "title": "1.3.3 스페이스 프레임공사 ",
+        "label": "⑦",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 69
+      },
+      {
+        "section_id": 375699,
+        "document_id": 2539,
+        "code": "EXCS 414901",
+        "document_name": "금속공사 일반(부대시설편)",
+        "title": "1.4.2.4 견본",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 98
+      },
+      {
+        "section_id": 375711,
+        "document_id": 2539,
+        "code": "EXCS 414901",
+        "document_name": "금속공사 일반(부대시설편)",
+        "title": "1.4.3.1 시공상세도면",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 110
+      },
+      {
+        "section_id": 372126,
+        "document_id": 2517,
+        "code": "EXCS 413409",
+        "document_name": "ALC 블록공사(부대시설편)",
+        "title": "1.1.1 ALC 블럭쌓기 ",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 4
+      },
+      {
+        "section_id": 372128,
+        "document_id": 2517,
+        "code": "EXCS 413409",
+        "document_name": "ALC 블록공사(부대시설편)",
+        "title": "1.1.2 ALC 패널설치",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 6
+      },
+      {
+        "section_id": 372212,
+        "document_id": 2517,
+        "code": "EXCS 413409",
+        "document_name": "ALC 블록공사(부대시설편)",
+        "title": "1.5.1.2 시공전 협의",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 90
+      },
+      {
+        "section_id": 372218,
+        "document_id": 2517,
+        "code": "EXCS 413409",
+        "document_name": "ALC 블록공사(부대시설편)",
+        "title": "1.5.2.2 시공전 협의",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 96
+      },
+      {
+        "section_id": 372228,
+        "document_id": 2517,
+        "code": "EXCS 413409",
+        "document_name": "ALC 블록공사(부대시설편)",
+        "title": "1.6.2 ALC 패널설치",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 106
+      },
+      {
+        "section_id": 372229,
+        "document_id": 2517,
+        "code": "EXCS 413409",
+        "document_name": "ALC 블록공사(부대시설편)",
+        "title": "1.6.2 ALC 패널설치",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 107
+      },
+      {
+        "section_id": 372245,
+        "document_id": 2517,
+        "code": "EXCS 413409",
+        "document_name": "ALC 블록공사(부대시설편)",
+        "title": "2.1.1 ALC블록",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 123
+      },
+      {
+        "section_id": 372250,
+        "document_id": 2517,
+        "code": "EXCS 413409",
+        "document_name": "ALC 블록공사(부대시설편)",
+        "title": "2.1.2 보강철물 및 접합철물 ",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 128
+      }
+    ],
+    "KRACS": [
+      {
+        "section_id": 414907,
+        "document_id": 2819,
+        "code": "KRACS 471010",
+        "document_name": "공사환경 및 안전관리",
+        "title": "1.1.1 적용범위",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 4
+      },
+      {
+        "section_id": 414954,
+        "document_id": 2819,
+        "code": "KRACS 471010",
+        "document_name": "공사환경 및 안전관리",
+        "title": "1.1.4 제출자료",
+        "label": "①",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 51
+      },
+      {
+        "section_id": 414955,
+        "document_id": 2819,
+        "code": "KRACS 471010",
+        "document_name": "공사환경 및 안전관리",
+        "title": "1.1.4 제출자료",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 52
+      },
+      {
+        "section_id": 414978,
+        "document_id": 2819,
+        "code": "KRACS 471010",
+        "document_name": "공사환경 및 안전관리",
+        "title": "1.1.4 제출자료",
+        "label": "②",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 75
+      },
+      {
+        "section_id": 414985,
+        "document_id": 2819,
+        "code": "KRACS 471010",
+        "document_name": "공사환경 및 안전관리",
+        "title": "1.1.5 현장환경관리",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 82
+      },
+      {
+        "section_id": 414987,
+        "document_id": 2819,
+        "code": "KRACS 471010",
+        "document_name": "공사환경 및 안전관리",
+        "title": "1.1.5 현장환경관리",
+        "label": "①",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 84
+      },
+      {
+        "section_id": 414988,
+        "document_id": 2819,
+        "code": "KRACS 471010",
+        "document_name": "공사환경 및 안전관리",
+        "title": "1.1.5 현장환경관리",
+        "label": "②",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 85
+      },
+      {
+        "section_id": 414989,
+        "document_id": 2819,
+        "code": "KRACS 471010",
+        "document_name": "공사환경 및 안전관리",
+        "title": "1.1.5 현장환경관리",
+        "label": "③",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 86
+      },
+      {
+        "section_id": 418849,
+        "document_id": 2824,
+        "code": "KRACS 471055",
+        "document_name": "콘크리트 교량공사",
+        "title": "1.1.2 재료",
+        "label": "⑤",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 24
+      },
+      {
+        "section_id": 418852,
+        "document_id": 2824,
+        "code": "KRACS 471055",
+        "document_name": "콘크리트 교량공사",
+        "title": "1.1.3 시공",
+        "label": "①",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 27
+      },
+      {
+        "section_id": 418854,
+        "document_id": 2824,
+        "code": "KRACS 471055",
+        "document_name": "콘크리트 교량공사",
+        "title": "1.1.3 시공",
+        "label": "③",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 29
+      },
+      {
+        "section_id": 418860,
+        "document_id": 2824,
+        "code": "KRACS 471055",
+        "document_name": "콘크리트 교량공사",
+        "title": "1.1.3 시공",
+        "label": "가.",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 35
+      },
+      {
+        "section_id": 418861,
+        "document_id": 2824,
+        "code": "KRACS 471055",
+        "document_name": "콘크리트 교량공사",
+        "title": "1.1.3 시공",
+        "label": "나.",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 36
+      },
+      {
+        "section_id": 418866,
+        "document_id": 2824,
+        "code": "KRACS 471055",
+        "document_name": "콘크리트 교량공사",
+        "title": "1.1.3 시공",
+        "label": "다.",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 41
+      },
+      {
+        "section_id": 418868,
+        "document_id": 2824,
+        "code": "KRACS 471055",
+        "document_name": "콘크리트 교량공사",
+        "title": "1.1.3 시공",
+        "label": "마.",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 43
+      },
+      {
+        "section_id": 418870,
+        "document_id": 2824,
+        "code": "KRACS 471055",
+        "document_name": "콘크리트 교량공사",
+        "title": "1.1.3 시공",
+        "label": "사.",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 45
+      },
+      {
+        "section_id": 422813,
+        "document_id": 2827,
+        "code": "KRACS 471070",
+        "document_name": "터널공사",
+        "title": "1. 총칙",
+        "label": "가)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 4
+      },
+      {
+        "section_id": 422816,
+        "document_id": 2827,
+        "code": "KRACS 471070",
+        "document_name": "터널공사",
+        "title": "1. 총칙",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 7
+      },
+      {
+        "section_id": 422817,
+        "document_id": 2827,
+        "code": "KRACS 471070",
+        "document_name": "터널공사",
+        "title": "1. 총칙",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 8
+      },
+      {
+        "section_id": 422818,
+        "document_id": 2827,
+        "code": "KRACS 471070",
+        "document_name": "터널공사",
+        "title": "1. 총칙",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 9
+      },
+      {
+        "section_id": 422819,
+        "document_id": 2827,
+        "code": "KRACS 471070",
+        "document_name": "터널공사",
+        "title": "1. 총칙",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 10
+      },
+      {
+        "section_id": 422821,
+        "document_id": 2827,
+        "code": "KRACS 471070",
+        "document_name": "터널공사",
+        "title": "1. 총칙",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 12
+      },
+      {
+        "section_id": 422824,
+        "document_id": 2827,
+        "code": "KRACS 471070",
+        "document_name": "터널공사",
+        "title": "1. 총칙",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 15
+      },
+      {
+        "section_id": 422825,
+        "document_id": 2827,
+        "code": "KRACS 471070",
+        "document_name": "터널공사",
+        "title": "1. 총칙",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 16
+      }
+    ],
+    "KRCCS": [
+      {
+        "section_id": 398743,
+        "document_id": 2689,
+        "code": "KRCCS 679016",
+        "document_name": "농업생산기반시설 기계 조작기",
+        "title": "1.4  요구조건",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 26
+      },
+      {
+        "section_id": 398751,
+        "document_id": 2689,
+        "code": "KRCCS 679016",
+        "document_name": "농업생산기반시설 기계 조작기",
+        "title": "2.1  일반사항",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 34
+      },
+      {
+        "section_id": 398752,
+        "document_id": 2689,
+        "code": "KRCCS 679016",
+        "document_name": "농업생산기반시설 기계 조작기",
+        "title": "2.1  일반사항",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 35
+      },
+      {
+        "section_id": 398753,
+        "document_id": 2689,
+        "code": "KRCCS 679016",
+        "document_name": "농업생산기반시설 기계 조작기",
+        "title": "2.1  일반사항",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 36
+      },
+      {
+        "section_id": 398757,
+        "document_id": 2689,
+        "code": "KRCCS 679016",
+        "document_name": "농업생산기반시설 기계 조작기",
+        "title": "2.2.1  일반",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 40
+      },
+      {
+        "section_id": 398758,
+        "document_id": 2689,
+        "code": "KRCCS 679016",
+        "document_name": "농업생산기반시설 기계 조작기",
+        "title": "2.2.1  일반",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 41
+      },
+      {
+        "section_id": 398773,
+        "document_id": 2689,
+        "code": "KRCCS 679016",
+        "document_name": "농업생산기반시설 기계 조작기",
+        "title": "2.2.2  수동 조작기(Actuator)",
+        "label": "②",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 56
+      },
+      {
+        "section_id": 398774,
+        "document_id": 2689,
+        "code": "KRCCS 679016",
+        "document_name": "농업생산기반시설 기계 조작기",
+        "title": "2.2.2  수동 조작기(Actuator)",
+        "label": "③",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 57
+      },
+      {
+        "section_id": 396999,
+        "document_id": 2677,
+        "code": "KRCCS 679004",
+        "document_name": "농업생산기반시설 기계 자재관리",
+        "title": "1.1.1  사용자재",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 4
+      },
+      {
+        "section_id": 397002,
+        "document_id": 2677,
+        "code": "KRCCS 679004",
+        "document_name": "농업생산기반시설 기계 자재관리",
+        "title": "1.1.1  사용자재",
+        "label": "나.",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 7
+      },
+      {
+        "section_id": 397003,
+        "document_id": 2677,
+        "code": "KRCCS 679004",
+        "document_name": "농업생산기반시설 기계 자재관리",
+        "title": "1.1.1  사용자재",
+        "label": "②",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 8
+      },
+      {
+        "section_id": 397004,
+        "document_id": 2677,
+        "code": "KRCCS 679004",
+        "document_name": "농업생산기반시설 기계 자재관리",
+        "title": "1.1.1  사용자재",
+        "label": "③",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 9
+      },
+      {
+        "section_id": 397005,
+        "document_id": 2677,
+        "code": "KRCCS 679004",
+        "document_name": "농업생산기반시설 기계 자재관리",
+        "title": "1.1.1  사용자재",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 10
+      },
+      {
+        "section_id": 397007,
+        "document_id": 2677,
+        "code": "KRCCS 679004",
+        "document_name": "농업생산기반시설 기계 자재관리",
+        "title": "1.1.2  사용제한",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 12
+      },
+      {
+        "section_id": 397008,
+        "document_id": 2677,
+        "code": "KRCCS 679004",
+        "document_name": "농업생산기반시설 기계 자재관리",
+        "title": "1.1.2  사용제한",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 13
+      },
+      {
+        "section_id": 397014,
+        "document_id": 2677,
+        "code": "KRCCS 679004",
+        "document_name": "농업생산기반시설 기계 자재관리",
+        "title": "1.4  공급원과 품질요건",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 19
+      },
+      {
+        "section_id": 406321,
+        "document_id": 2762,
+        "code": "KRCCS 679526",
+        "document_name": "농업생산기반시설 전기 시스템박스(Desk Plate Type) 설치공사",
+        "title": "3.1.1  시공순서 ",
+        "label": "③",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 33
+      },
+      {
+        "section_id": 406322,
+        "document_id": 2762,
+        "code": "KRCCS 679526",
+        "document_name": "농업생산기반시설 전기 시스템박스(Desk Plate Type) 설치공사",
+        "title": "3.1.1  시공순서 ",
+        "label": "④",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 34
+      },
+      {
+        "section_id": 406324,
+        "document_id": 2762,
+        "code": "KRCCS 679526",
+        "document_name": "농업생산기반시설 전기 시스템박스(Desk Plate Type) 설치공사",
+        "title": "3.1.1  시공순서 ",
+        "label": "①",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 36
+      },
+      {
+        "section_id": 406332,
+        "document_id": 2762,
+        "code": "KRCCS 679526",
+        "document_name": "농업생산기반시설 전기 시스템박스(Desk Plate Type) 설치공사",
+        "title": "3.1.1  시공순서 ",
+        "label": "①",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 44
+      },
+      {
+        "section_id": 406336,
+        "document_id": 2762,
+        "code": "KRCCS 679526",
+        "document_name": "농업생산기반시설 전기 시스템박스(Desk Plate Type) 설치공사",
+        "title": "3.1.1  시공순서 ",
+        "label": "②",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 48
+      },
+      {
+        "section_id": 406337,
+        "document_id": 2762,
+        "code": "KRCCS 679526",
+        "document_name": "농업생산기반시설 전기 시스템박스(Desk Plate Type) 설치공사",
+        "title": "3.1.1  시공순서 ",
+        "label": "③",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 49
+      }
+    ],
+    "KWCS": [
+      {
+        "section_id": 541248,
+        "document_id": 3477,
+        "code": "KWCS 57401005",
+        "document_name": "이산화탄소 주입설비",
+        "title": "1.4 요구조건",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 15
+      },
+      {
+        "section_id": 541264,
+        "document_id": 3477,
+        "code": "KWCS 57401005",
+        "document_name": "이산화탄소 주입설비",
+        "title": "2.2.2 작동조건",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 31
+      },
+      {
+        "section_id": 541268,
+        "document_id": 3477,
+        "code": "KWCS 57401005",
+        "document_name": "이산화탄소 주입설비",
+        "title": "2.3.1 저장탱크",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 35
+      },
+      {
+        "section_id": 541270,
+        "document_id": 3477,
+        "code": "KWCS 57401005",
+        "document_name": "이산화탄소 주입설비",
+        "title": "2.3.1 저장탱크",
+        "label": "①",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 37
+      },
+      {
+        "section_id": 541273,
+        "document_id": 3477,
+        "code": "KWCS 57401005",
+        "document_name": "이산화탄소 주입설비",
+        "title": "2.3.1 저장탱크",
+        "label": "②",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 40
+      },
+      {
+        "section_id": 541276,
+        "document_id": 3477,
+        "code": "KWCS 57401005",
+        "document_name": "이산화탄소 주입설비",
+        "title": "2.3.1 저장탱크",
+        "label": "①",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 43
+      },
+      {
+        "section_id": 541278,
+        "document_id": 3477,
+        "code": "KWCS 57401005",
+        "document_name": "이산화탄소 주입설비",
+        "title": "2.3.1 저장탱크",
+        "label": "①",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 45
+      },
+      {
+        "section_id": 541291,
+        "document_id": 3477,
+        "code": "KWCS 57401005",
+        "document_name": "이산화탄소 주입설비",
+        "title": "2.3.1 저장탱크",
+        "label": "①",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 58
+      },
+      {
+        "section_id": 522883,
+        "document_id": 3407,
+        "code": "KWCS 31501710",
+        "document_name": "수차",
+        "title": "1.4.1 수위 및 낙차",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 20
+      },
+      {
+        "section_id": 522909,
+        "document_id": 3407,
+        "code": "KWCS 31501710",
+        "document_name": "수차",
+        "title": "1.4.3 속도 및 수압상승율",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 46
+      },
+      {
+        "section_id": 522914,
+        "document_id": 3407,
+        "code": "KWCS 31501710",
+        "document_name": "수차",
+        "title": "1.6 수량산출 및 대가 지급",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 51
+      },
+      {
+        "section_id": 522915,
+        "document_id": 3407,
+        "code": "KWCS 31501710",
+        "document_name": "수차",
+        "title": "1.6 수량산출 및 대가 지급",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 52
+      },
+      {
+        "section_id": 522920,
+        "document_id": 3407,
+        "code": "KWCS 31501710",
+        "document_name": "수차",
+        "title": "2.1.1.1 형식 및 정격",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 57
+      },
+      {
+        "section_id": 522921,
+        "document_id": 3407,
+        "code": "KWCS 31501710",
+        "document_name": "수차",
+        "title": "2.1.1.1 형식 및 정격",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 58
+      },
+      {
+        "section_id": 522922,
+        "document_id": 3407,
+        "code": "KWCS 31501710",
+        "document_name": "수차",
+        "title": "2.1.1.1 형식 및 정격",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 59
+      },
+      {
+        "section_id": 522923,
+        "document_id": 3407,
+        "code": "KWCS 31501710",
+        "document_name": "수차",
+        "title": "2.1.1.1 형식 및 정격",
+        "label": "(4)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 60
+      },
+      {
+        "section_id": 549295,
+        "document_id": 3517,
+        "code": "KWCS 57801570",
+        "document_name": "자동드레인 설비",
+        "title": "1.1 적용범위",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 3
+      },
+      {
+        "section_id": 549314,
+        "document_id": 3517,
+        "code": "KWCS 57801570",
+        "document_name": "자동드레인 설비",
+        "title": "2.1 일반사항",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 22
+      },
+      {
+        "section_id": 549316,
+        "document_id": 3517,
+        "code": "KWCS 57801570",
+        "document_name": "자동드레인 설비",
+        "title": "2.2 구조 및 재질",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 24
+      },
+      {
+        "section_id": 549367,
+        "document_id": 3517,
+        "code": "KWCS 57801570",
+        "document_name": "자동드레인 설비",
+        "title": "3.1 일반사항 ",
+        "label": "①",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 75
+      },
+      {
+        "section_id": 549370,
+        "document_id": 3517,
+        "code": "KWCS 57801570",
+        "document_name": "자동드레인 설비",
+        "title": "3.1 일반사항 ",
+        "label": "④",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 78
+      },
+      {
+        "section_id": 549372,
+        "document_id": 3517,
+        "code": "KWCS 57801570",
+        "document_name": "자동드레인 설비",
+        "title": "3.1 일반사항 ",
+        "label": "⑥",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 80
+      }
+    ],
+    "LHCS": [
+      {
+        "section_id": 456378,
+        "document_id": 3047,
+        "code": "LHCS 31451035",
+        "document_name": "연결송수관설비공사",
+        "title": "2.1 연결송수관",
+        "label": "①",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 34
+      },
+      {
+        "section_id": 456379,
+        "document_id": 3047,
+        "code": "LHCS 31451035",
+        "document_name": "연결송수관설비공사",
+        "title": "2.1 연결송수관",
+        "label": "②",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 35
+      },
+      {
+        "section_id": 456383,
+        "document_id": 3047,
+        "code": "LHCS 31451035",
+        "document_name": "연결송수관설비공사",
+        "title": "3.1.1 송수구",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 39
+      },
+      {
+        "section_id": 456385,
+        "document_id": 3047,
+        "code": "LHCS 31451035",
+        "document_name": "연결송수관설비공사",
+        "title": "3.1.1 송수구",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 41
+      },
+      {
+        "section_id": 456386,
+        "document_id": 3047,
+        "code": "LHCS 31451035",
+        "document_name": "연결송수관설비공사",
+        "title": "3.1.1 송수구",
+        "label": "(4)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 42
+      },
+      {
+        "section_id": 456392,
+        "document_id": 3047,
+        "code": "LHCS 31451035",
+        "document_name": "연결송수관설비공사",
+        "title": "3.1.2 방수구",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 48
+      },
+      {
+        "section_id": 456393,
+        "document_id": 3047,
+        "code": "LHCS 31451035",
+        "document_name": "연결송수관설비공사",
+        "title": "3.1.2 방수구",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 49
+      },
+      {
+        "section_id": 456395,
+        "document_id": 3047,
+        "code": "LHCS 31451035",
+        "document_name": "연결송수관설비공사",
+        "title": "3.1.2 방수구",
+        "label": "(5)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 51
+      },
+      {
+        "section_id": 444705,
+        "document_id": 2969,
+        "code": "LHCS 24300015",
+        "document_name": "강교도장",
+        "title": "1.1 적용 범위",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 3
+      },
+      {
+        "section_id": 444706,
+        "document_id": 2969,
+        "code": "LHCS 24300015",
+        "document_name": "강교도장",
+        "title": "1.1 적용 범위",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 4
+      },
+      {
+        "section_id": 444729,
+        "document_id": 2969,
+        "code": "LHCS 24300015",
+        "document_name": "강교도장",
+        "title": "1.5 제출물",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 27
+      },
+      {
+        "section_id": 444730,
+        "document_id": 2969,
+        "code": "LHCS 24300015",
+        "document_name": "강교도장",
+        "title": "1.5 제출물",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 28
+      },
+      {
+        "section_id": 444731,
+        "document_id": 2969,
+        "code": "LHCS 24300015",
+        "document_name": "강교도장",
+        "title": "1.5 제출물",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 29
+      },
+      {
+        "section_id": 444737,
+        "document_id": 2969,
+        "code": "LHCS 24300015",
+        "document_name": "강교도장",
+        "title": "1.6.2 공정관리",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 35
+      },
+      {
+        "section_id": 444744,
+        "document_id": 2969,
+        "code": "LHCS 24300015",
+        "document_name": "강교도장",
+        "title": "1.7.2 도장관리자",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 42
+      },
+      {
+        "section_id": 444746,
+        "document_id": 2969,
+        "code": "LHCS 24300015",
+        "document_name": "강교도장",
+        "title": "1.7.3 도장작업자",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 44
+      },
+      {
+        "section_id": 505710,
+        "document_id": 3295,
+        "code": "LHCS 41800820",
+        "document_name": "자연환기구",
+        "title": "1.1 적용 범위",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 3
+      },
+      {
+        "section_id": 505747,
+        "document_id": 3295,
+        "code": "LHCS 41800820",
+        "document_name": "자연환기구",
+        "title": "2.1.2 구조",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 40
+      },
+      {
+        "section_id": 505751,
+        "document_id": 3295,
+        "code": "LHCS 41800820",
+        "document_name": "자연환기구",
+        "title": "2.2.1 재질",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 44
+      },
+      {
+        "section_id": 505753,
+        "document_id": 3295,
+        "code": "LHCS 41800820",
+        "document_name": "자연환기구",
+        "title": "2.2.2 구조",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 46
+      },
+      {
+        "section_id": 505757,
+        "document_id": 3295,
+        "code": "LHCS 41800820",
+        "document_name": "자연환기구",
+        "title": "2.2.3 성능",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 50
+      },
+      {
+        "section_id": 505759,
+        "document_id": 3295,
+        "code": "LHCS 41800820",
+        "document_name": "자연환기구",
+        "title": "2.3 시스템 루버",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 52
+      },
+      {
+        "section_id": 505761,
+        "document_id": 3295,
+        "code": "LHCS 41800820",
+        "document_name": "자연환기구",
+        "title": "2.3.1 재질 및 구조",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 54
+      },
+      {
+        "section_id": 505763,
+        "document_id": 3295,
+        "code": "LHCS 41800820",
+        "document_name": "자연환기구",
+        "title": "2.3.2 성능",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 56
+      }
+    ],
+    "NHCS": [
+      {
+        "section_id": 284873,
+        "document_id": 1389,
+        "code": "NHCS 272000",
+        "document_name": "터널굴착",
+        "title": "1.7.1 터널 굴착 제출물",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 19
+      },
+      {
+        "section_id": 284881,
+        "document_id": 1389,
+        "code": "NHCS 272000",
+        "document_name": "터널굴착",
+        "title": "1.7.2 버력처리 및 운반 제출물",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 27
+      },
+      {
+        "section_id": 284883,
+        "document_id": 1389,
+        "code": "NHCS 272000",
+        "document_name": "터널굴착",
+        "title": "1.7.3 갱구부 제출물",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 29
+      },
+      {
+        "section_id": 284915,
+        "document_id": 1389,
+        "code": "NHCS 272000",
+        "document_name": "터널굴착",
+        "title": "3.1.1 시공일반",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 61
+      },
+      {
+        "section_id": 284916,
+        "document_id": 1389,
+        "code": "NHCS 272000",
+        "document_name": "터널굴착",
+        "title": "3.1.1 시공일반",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 62
+      },
+      {
+        "section_id": 284918,
+        "document_id": 1389,
+        "code": "NHCS 272000",
+        "document_name": "터널굴착",
+        "title": "3.1.1 시공일반",
+        "label": "(4)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 64
+      },
+      {
+        "section_id": 284919,
+        "document_id": 1389,
+        "code": "NHCS 272000",
+        "document_name": "터널굴착",
+        "title": "3.1.1 시공일반",
+        "label": "(5)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 65
+      },
+      {
+        "section_id": 284921,
+        "document_id": 1389,
+        "code": "NHCS 272000",
+        "document_name": "터널굴착",
+        "title": "3.1.1 시공일반",
+        "label": "(7)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 67
+      },
+      {
+        "section_id": 285233,
+        "document_id": 1391,
+        "code": "NHCS 274005",
+        "document_name": "터널 현장타설 라이닝 공사",
+        "title": "1.1 적용 범위",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 3
+      },
+      {
+        "section_id": 285268,
+        "document_id": 1391,
+        "code": "NHCS 274005",
+        "document_name": "터널 현장타설 라이닝 공사",
+        "title": "3.3.1 현장타설 라이닝 시공",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 38
+      },
+      {
+        "section_id": 285269,
+        "document_id": 1391,
+        "code": "NHCS 274005",
+        "document_name": "터널 현장타설 라이닝 공사",
+        "title": "3.3.1 현장타설 라이닝 시공",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 39
+      },
+      {
+        "section_id": 285270,
+        "document_id": 1391,
+        "code": "NHCS 274005",
+        "document_name": "터널 현장타설 라이닝 공사",
+        "title": "3.3.1 현장타설 라이닝 시공",
+        "label": "(4)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 40
+      },
+      {
+        "section_id": 285271,
+        "document_id": 1391,
+        "code": "NHCS 274005",
+        "document_name": "터널 현장타설 라이닝 공사",
+        "title": "3.3.1 현장타설 라이닝 시공",
+        "label": "(5)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 41
+      },
+      {
+        "section_id": 285272,
+        "document_id": 1391,
+        "code": "NHCS 274005",
+        "document_name": "터널 현장타설 라이닝 공사",
+        "title": "3.3.1 현장타설 라이닝 시공",
+        "label": "(6)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 42
+      },
+      {
+        "section_id": 285281,
+        "document_id": 1391,
+        "code": "NHCS 274005",
+        "document_name": "터널 현장타설 라이닝 공사",
+        "title": "3.3.3 거푸집",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 51
+      },
+      {
+        "section_id": 285284,
+        "document_id": 1391,
+        "code": "NHCS 274005",
+        "document_name": "터널 현장타설 라이닝 공사",
+        "title": "3.3.3 거푸집",
+        "label": "(5)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 54
+      },
+      {
+        "section_id": 279453,
+        "document_id": 1341,
+        "code": "NHCS 112025",
+        "document_name": "되메우기 및 뒤채움",
+        "title": "2.1.3 뒤채움 재료",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 23
+      },
+      {
+        "section_id": 279474,
+        "document_id": 1341,
+        "code": "NHCS 112025",
+        "document_name": "되메우기 및 뒤채움",
+        "title": "3.3.2 되메우기, 흙쌓기 및 땅고르기",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 44
+      },
+      {
+        "section_id": 279477,
+        "document_id": 1341,
+        "code": "NHCS 112025",
+        "document_name": "되메우기 및 뒤채움",
+        "title": "3.3.3 뒤채움 시공기준",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 47
+      },
+      {
+        "section_id": 279478,
+        "document_id": 1341,
+        "code": "NHCS 112025",
+        "document_name": "되메우기 및 뒤채움",
+        "title": "3.3.3 뒤채움 시공기준",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 48
+      },
+      {
+        "section_id": 279479,
+        "document_id": 1341,
+        "code": "NHCS 112025",
+        "document_name": "되메우기 및 뒤채움",
+        "title": "3.3.3 뒤채움 시공기준",
+        "label": "(4)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 49
+      },
+      {
+        "section_id": 279480,
+        "document_id": 1341,
+        "code": "NHCS 112025",
+        "document_name": "되메우기 및 뒤채움",
+        "title": "3.3.3 뒤채움 시공기준",
+        "label": "(5)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 50
+      }
+    ],
+    "SMCS": [
+      {
+        "section_id": 312738,
+        "document_id": 1698,
+        "code": "SMCS 31602055",
+        "document_name": "정보통신 직류전원장치",
+        "title": "2.2 정류장치 고려사항",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 18
+      },
+      {
+        "section_id": 312745,
+        "document_id": 1698,
+        "code": "SMCS 31602055",
+        "document_name": "정보통신 직류전원장치",
+        "title": "2.2 정류장치 고려사항",
+        "label": "①",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 25
+      },
+      {
+        "section_id": 312748,
+        "document_id": 1698,
+        "code": "SMCS 31602055",
+        "document_name": "정보통신 직류전원장치",
+        "title": "2.2 정류장치 고려사항",
+        "label": "(9)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 28
+      },
+      {
+        "section_id": 312750,
+        "document_id": 1698,
+        "code": "SMCS 31602055",
+        "document_name": "정보통신 직류전원장치",
+        "title": "2.3 직류전원장치 축전지 고려사항",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 30
+      },
+      {
+        "section_id": 312753,
+        "document_id": 1698,
+        "code": "SMCS 31602055",
+        "document_name": "정보통신 직류전원장치",
+        "title": "2.3 직류전원장치 축전지 고려사항",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 33
+      },
+      {
+        "section_id": 312756,
+        "document_id": 1698,
+        "code": "SMCS 31602055",
+        "document_name": "정보통신 직류전원장치",
+        "title": "2.3 직류전원장치 축전지 고려사항",
+        "label": "(6)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 36
+      },
+      {
+        "section_id": 312761,
+        "document_id": 1698,
+        "code": "SMCS 31602055",
+        "document_name": "정보통신 직류전원장치",
+        "title": "2.4.1 시험",
+        "label": "①",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 41
+      },
+      {
+        "section_id": 312780,
+        "document_id": 1698,
+        "code": "SMCS 31602055",
+        "document_name": "정보통신 직류전원장치",
+        "title": "3.4 직류전원장치 현장 품질관리",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 60
+      },
+      {
+        "section_id": 302357,
+        "document_id": 1594,
+        "code": "SMCS 275005",
+        "document_name": "터널 배수 및 방수",
+        "title": "1.1 적용 범위",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 6
+      },
+      {
+        "section_id": 302358,
+        "document_id": 1594,
+        "code": "SMCS 275005",
+        "document_name": "터널 배수 및 방수",
+        "title": "1.1 적용 범위",
+        "label": "(4)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 7
+      },
+      {
+        "section_id": 302376,
+        "document_id": 1594,
+        "code": "SMCS 275005",
+        "document_name": "터널 배수 및 방수",
+        "title": "1.7 배수 일반",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 25
+      },
+      {
+        "section_id": 302378,
+        "document_id": 1594,
+        "code": "SMCS 275005",
+        "document_name": "터널 배수 및 방수",
+        "title": "1.7 배수 일반",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 27
+      },
+      {
+        "section_id": 302380,
+        "document_id": 1594,
+        "code": "SMCS 275005",
+        "document_name": "터널 배수 및 방수",
+        "title": "1.7 배수 일반",
+        "label": "(5)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 29
+      },
+      {
+        "section_id": 302382,
+        "document_id": 1594,
+        "code": "SMCS 275005",
+        "document_name": "터널 배수 및 방수",
+        "title": "1.8 방수 일반",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 31
+      },
+      {
+        "section_id": 302383,
+        "document_id": 1594,
+        "code": "SMCS 275005",
+        "document_name": "터널 배수 및 방수",
+        "title": "1.8 방수 일반",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 32
+      },
+      {
+        "section_id": 302385,
+        "document_id": 1594,
+        "code": "SMCS 275005",
+        "document_name": "터널 배수 및 방수",
+        "title": "1.8 방수 일반",
+        "label": "(4)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 34
+      },
+      {
+        "section_id": 307043,
+        "document_id": 1630,
+        "code": "SMCS 314505",
+        "document_name": "소방기계설비공사 공통공사",
+        "title": "1.4.3 시공상태확인서",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 65
+      },
+      {
+        "section_id": 307045,
+        "document_id": 1630,
+        "code": "SMCS 314505",
+        "document_name": "소방기계설비공사 공통공사",
+        "title": "1.4.4 현장시험 성적표",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 67
+      },
+      {
+        "section_id": 307050,
+        "document_id": 1630,
+        "code": "SMCS 314505",
+        "document_name": "소방기계설비공사 공통공사",
+        "title": "1.6.1 공사 전 협의",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 72
+      },
+      {
+        "section_id": 307051,
+        "document_id": 1630,
+        "code": "SMCS 314505",
+        "document_name": "소방기계설비공사 공통공사",
+        "title": "1.6.1 공사 전 협의",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 73
+      },
+      {
+        "section_id": 307053,
+        "document_id": 1630,
+        "code": "SMCS 314505",
+        "document_name": "소방기계설비공사 공통공사",
+        "title": "1.6.1 공사 전 협의",
+        "label": "(4)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 75
+      },
+      {
+        "section_id": 307064,
+        "document_id": 1630,
+        "code": "SMCS 314505",
+        "document_name": "소방기계설비공사 공통공사",
+        "title": "1.9 운반, 저장 및 취급",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 86
+      },
+      {
+        "section_id": 307065,
+        "document_id": 1630,
+        "code": "SMCS 314505",
+        "document_name": "소방기계설비공사 공통공사",
+        "title": "1.9 운반, 저장 및 취급",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 87
+      },
+      {
+        "section_id": 307089,
+        "document_id": 1630,
+        "code": "SMCS 314505",
+        "document_name": "소방기계설비공사 공통공사",
+        "title": "2.2.4 감시제어반",
+        "label": "①",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 111
+      }
+    ]
+  },
+  "references": [
+    {
+      "source": {
+        "section_id": 74428,
+        "document_id": 246,
+        "code": "KDS 412010",
+        "document_name": "건축물 프리캐스트 콘크리트구조 설계기준",
+        "title": "4.5.5.1 일반",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 430
+      },
+      "target": [
+        {
+          "section_id": 71039,
+          "document_id": 242,
+          "code": "KDS 411200",
+          "document_name": "건축물 설계하중",
+          "title": "11.1 일반",
+          "label": "(1)"
+        },
+        {
+          "section_id": 71040,
+          "document_id": 242,
+          "code": "KDS 411200",
+          "document_name": "건축물 설계하중",
+          "title": "11.1 일반",
+          "label": "(2)"
+        },
+        {
+          "section_id": 71042,
+          "document_id": 242,
+          "code": "KDS 411200",
+          "document_name": "건축물 설계하중",
+          "title": "11.1 일반",
+          "label": "(4)"
+        }
+      ],
+      "reference_clause": "11.1"
+    },
+    {
+      "source": {
+        "section_id": 381803,
+        "document_id": 2568,
+        "code": "EXCS 445010",
+        "document_name": "아스팔트 콘크리트 포장공사",
+        "title": "3.4.4 현장배합",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 270
+      },
+      "target": [
+        {
+          "section_id": 381435,
+          "document_id": 2567,
+          "code": "EXCS 445005",
+          "document_name": "동상방지층, 보조기층 및 기층공사",
+          "title": "3.4.4 현장배합",
+          "label": "(2)"
+        },
+        {
+          "section_id": 381436,
+          "document_id": 2567,
+          "code": "EXCS 445005",
+          "document_name": "동상방지층, 보조기층 및 기층공사",
+          "title": "3.4.4 현장배합",
+          "label": "(3)"
+        },
+        {
+          "section_id": 381438,
+          "document_id": 2567,
+          "code": "EXCS 445005",
+          "document_name": "동상방지층, 보조기층 및 기층공사",
+          "title": "3.4.4 현장배합",
+          "label": "(4)"
+        }
+      ],
+      "reference_clause": "3.4.4"
+    },
+    {
+      "source": {
+        "section_id": 245429,
+        "document_id": 1143,
+        "code": "KCS 514015",
+        "document_name": "하천 취수시설",
+        "title": "3.3.5 취수관로",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 80
+      },
+      "target": [
+        {
+          "section_id": 246173,
+          "document_id": 1146,
+          "code": "KCS 516010",
+          "document_name": "하천 호안",
+          "title": "3.1.1 밑다짐공사",
+          "label": "②"
+        },
+        {
+          "section_id": 246179,
+          "document_id": 1146,
+          "code": "KCS 516010",
+          "document_name": "하천 호안",
+          "title": "3.1.1 밑다짐공사",
+          "label": "⑧"
+        },
+        {
+          "section_id": 246185,
+          "document_id": 1146,
+          "code": "KCS 516010",
+          "document_name": "하천 호안",
+          "title": "3.1.1 밑다짐공사",
+          "label": "⑨"
+        }
+      ],
+      "reference_clause": "3.1.1"
+    },
+    {
+      "source": {
+        "section_id": 354458,
+        "document_id": 2359,
+        "code": "EXCS 142044",
+        "document_name": "해양 콘크리트",
+        "title": "1.1 적용 범위",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 4
+      },
+      "target": [
+        {
+          "section_id": 354368,
+          "document_id": 2358,
+          "code": "EXCS 142043",
+          "document_name": "수중 콘크리트",
+          "title": "1.1 적용 범위",
+          "label": "(2)"
+        }
+      ],
+      "reference_clause": "1.1"
+    },
+    {
+      "source": {
+        "section_id": 321919,
+        "document_id": 1777,
+        "code": "SMCS 31901540",
+        "document_name": "배관공사",
+        "title": "2.1 배관재료",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 43
+      },
+      "target": [
+        {
+          "section_id": 304078,
+          "document_id": 1611,
+          "code": "SMCS 312015",
+          "document_name": "배관설비공사",
+          "title": "2.1 배관재료",
+          "label": "②"
+        }
+      ],
+      "reference_clause": "2.1"
+    },
+    {
+      "source": {
+        "section_id": 10069,
+        "document_id": 54,
+        "code": "KDS 142068",
+        "document_name": "유리섬유 강화 폴리머 보강근 콘크리트구조 설계기준",
+        "title": "4.8.2.5.4 보가 없는 2방향 슬래브의 보강근 상세",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 609
+      },
+      "target": [
+        {
+          "section_id": 10561,
+          "document_id": 55,
+          "code": "KDS 142070",
+          "document_name": "콘크리트 슬래브와 기초판 설계기준",
+          "title": "4.1.5.4 보가 없는 슬래브의 철근 상세",
+          "label": "(1)"
+        },
+        {
+          "section_id": 10562,
+          "document_id": 55,
+          "code": "KDS 142070",
+          "document_name": "콘크리트 슬래브와 기초판 설계기준",
+          "title": "4.1.5.4 보가 없는 슬래브의 철근 상세",
+          "label": "(2)"
+        },
+        {
+          "section_id": 10563,
+          "document_id": 55,
+          "code": "KDS 142070",
+          "document_name": "콘크리트 슬래브와 기초판 설계기준",
+          "title": "4.1.5.4 보가 없는 슬래브의 철근 상세",
+          "label": "(3)"
+        }
+      ],
+      "reference_clause": "4.1.5.4"
+    },
+    {
+      "source": {
+        "section_id": 533730,
+        "document_id": 3438,
+        "code": "KWCS 318030",
+        "document_name": "소방전기설비공사",
+        "title": "3.2.2 유도등 및 유도표지설비 시공",
+        "label": "①",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 421
+      },
+      "target": [
+        {
+          "section_id": 520106,
+          "document_id": 3399,
+          "code": "KWCS 311021",
+          "document_name": "전기설비공사 일반사항",
+          "title": "3.1 일반사항",
+          "label": "(2)"
+        },
+        {
+          "section_id": 520107,
+          "document_id": 3399,
+          "code": "KWCS 311021",
+          "document_name": "전기설비공사 일반사항",
+          "title": "3.1 일반사항",
+          "label": "(3)"
+        },
+        {
+          "section_id": 520108,
+          "document_id": 3399,
+          "code": "KWCS 311021",
+          "document_name": "전기설비공사 일반사항",
+          "title": "3.1 일반사항",
+          "label": "(4)"
+        }
+      ],
+      "reference_clause": "3.1"
+    },
+    {
+      "source": {
+        "section_id": 237160,
+        "document_id": 1107,
+        "code": "KCS 449915",
+        "document_name": "비접착식 콘크리트 덧씌우기 포장",
+        "title": "3.7 비접착식 시멘트 콘크리트 덧씌우기의 품질시험",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 75
+      },
+      "target": [
+        {
+          "section_id": 237073,
+          "document_id": 1106,
+          "code": "KCS 449910",
+          "document_name": "접착식 콘크리트 덧씌우기 포장",
+          "title": "3.6 접착식 시멘트 콘크리트 덧씌우기의 품질시험",
+          "label": "①"
+        },
+        {
+          "section_id": 237075,
+          "document_id": 1106,
+          "code": "KCS 449910",
+          "document_name": "접착식 콘크리트 덧씌우기 포장",
+          "title": "3.6 접착식 시멘트 콘크리트 덧씌우기의 품질시험",
+          "label": "①"
+        }
+      ],
+      "reference_clause": "3.6"
+    },
+    {
+      "source": {
+        "section_id": 62538,
+        "document_id": 200,
+        "code": "KDS 342010",
+        "document_name": "지형설계",
+        "title": "4.3.1 일반사항",
+        "label": "(4)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 138
+      },
+      "target": [
+        {
+          "section_id": 1728,
+          "document_id": 16,
+          "code": "KDS 117005",
+          "document_name": "쌓기·깎기",
+          "title": "1.6.4 쌓기비탈면의 설계원칙",
+          "label": "(1)"
+        },
+        {
+          "section_id": 1737,
+          "document_id": 16,
+          "code": "KDS 117005",
+          "document_name": "쌓기·깎기",
+          "title": "1.6.4 쌓기비탈면의 설계원칙",
+          "label": "①"
+        },
+        {
+          "section_id": 1738,
+          "document_id": 16,
+          "code": "KDS 117005",
+          "document_name": "쌓기·깎기",
+          "title": "1.6.4 쌓기비탈면의 설계원칙",
+          "label": "②"
+        }
+      ],
+      "reference_clause": "1.6.4"
+    },
+    {
+      "source": {
+        "section_id": 168919,
+        "document_id": 751,
+        "code": "KCS 274010",
+        "document_name": "터널 세그먼트 라이닝 공사",
+        "title": "3.3.1 내부 현장타설라이닝",
+        "label": "(6)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 82
+      },
+      "target": [
+        {
+          "section_id": 168818,
+          "document_id": 750,
+          "code": "KCS 274005",
+          "document_name": "터널 현장타설 라이닝 공사",
+          "title": "3.3.5 거푸집",
+          "label": "(2)"
+        },
+        {
+          "section_id": 168820,
+          "document_id": 750,
+          "code": "KCS 274005",
+          "document_name": "터널 현장타설 라이닝 공사",
+          "title": "3.3.5 거푸집",
+          "label": "(4)"
+        },
+        {
+          "section_id": 168821,
+          "document_id": 750,
+          "code": "KCS 274005",
+          "document_name": "터널 현장타설 라이닝 공사",
+          "title": "3.3.5 거푸집",
+          "label": "(5)"
+        }
+      ],
+      "reference_clause": "3.3.5"
+    },
+    {
+      "source": {
+        "section_id": 282470,
+        "document_id": 1376,
+        "code": "NHCS 242010",
+        "document_name": "FCM 공법",
+        "title": "3.2 세그먼트 시공",
+        "label": "(17)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 81
+      },
+      "target": [
+        {
+          "section_id": 159362,
+          "document_id": 706,
+          "code": "KCS 242010",
+          "document_name": "FCM 공법",
+          "title": "3.2 세그먼트 시공",
+          "label": "(3)"
+        },
+        {
+          "section_id": 159370,
+          "document_id": 706,
+          "code": "KCS 242010",
+          "document_name": "FCM 공법",
+          "title": "3.2 세그먼트 시공",
+          "label": "(6)"
+        },
+        {
+          "section_id": 159371,
+          "document_id": 706,
+          "code": "KCS 242010",
+          "document_name": "FCM 공법",
+          "title": "3.2 세그먼트 시공",
+          "label": "(7)"
+        }
+      ],
+      "reference_clause": "3.2"
+    },
+    {
+      "source": {
+        "section_id": 6499,
+        "document_id": 41,
+        "code": "KDS 142020",
+        "document_name": "콘크리트구조 휨 및 압축 설계기준",
+        "title": "4.1.2 일반 원칙",
+        "label": "①",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 174
+      },
+      "target": [
+        {
+          "section_id": 8066,
+          "document_id": 47,
+          "code": "KDS 142050",
+          "document_name": "콘크리트구조 철근상세 설계기준",
+          "title": "4.4.2 압축부재의 횡철근",
+          "label": "①"
+        },
+        {
+          "section_id": 8069,
+          "document_id": 47,
+          "code": "KDS 142050",
+          "document_name": "콘크리트구조 철근상세 설계기준",
+          "title": "4.4.2 압축부재의 횡철근",
+          "label": "④"
+        },
+        {
+          "section_id": 8071,
+          "document_id": 47,
+          "code": "KDS 142050",
+          "document_name": "콘크리트구조 철근상세 설계기준",
+          "title": "4.4.2 압축부재의 횡철근",
+          "label": "①"
+        }
+      ],
+      "reference_clause": "4.4.2"
+    },
+    {
+      "source": {
+        "section_id": 30837,
+        "document_id": 97,
+        "code": "KDS 241430",
+        "document_name": "강교 설계기준(허용응력설계법)",
+        "title": "4.9.4 하중",
+        "label": "③",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 1079
+      },
+      "target": [
+        {
+          "section_id": 24043,
+          "document_id": 91,
+          "code": "KDS 241220",
+          "document_name": "교량 설계하중(일반설계법)",
+          "title": "4.1.3 운행하중",
+          "label": "본문"
+        },
+        {
+          "section_id": 24045,
+          "document_id": 91,
+          "code": "KDS 241220",
+          "document_name": "교량 설계하중(일반설계법)",
+          "title": "4.1.3 운행하중",
+          "label": "가."
+        },
+        {
+          "section_id": 24047,
+          "document_id": 91,
+          "code": "KDS 241220",
+          "document_name": "교량 설계하중(일반설계법)",
+          "title": "4.1.3 운행하중",
+          "label": "나."
+        }
+      ],
+      "reference_clause": "4.1.3"
+    },
+    {
+      "source": {
+        "section_id": 221168,
+        "document_id": 1026,
+        "code": "KCS 415103",
+        "document_name": "바닥 공사",
+        "title": "2.1 목질계",
+        "label": "③",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 29
+      },
+      "target": [
+        {
+          "section_id": 211446,
+          "document_id": 948,
+          "code": "KCS 413301",
+          "document_name": "목공사 일반",
+          "title": "2.1.1 함수율",
+          "label": "(2)"
+        },
+        {
+          "section_id": 211447,
+          "document_id": 948,
+          "code": "KCS 413301",
+          "document_name": "목공사 일반",
+          "title": "2.1.1 함수율",
+          "label": "(3)"
+        },
+        {
+          "section_id": 211448,
+          "document_id": 948,
+          "code": "KCS 413301",
+          "document_name": "목공사 일반",
+          "title": "2.1.1 함수율",
+          "label": "(4)"
+        }
+      ],
+      "reference_clause": "2.1.1"
+    },
+    {
+      "source": {
+        "section_id": 210741,
+        "document_id": 942,
+        "code": "KCS 413140",
+        "document_name": "건축물 강구조공사 제품검사 및 발송",
+        "title": "3.2 반입검사 일반사항",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 48
+      },
+      "target": [
+        {
+          "section_id": 209804,
+          "document_id": 935,
+          "code": "KCS 413105",
+          "document_name": "건축물 강구조공사 일반사항",
+          "title": "3.3 공장제작과 현장시공의 정밀도 관리기준",
+          "label": "(1)"
+        },
+        {
+          "section_id": 209805,
+          "document_id": 935,
+          "code": "KCS 413105",
+          "document_name": "건축물 강구조공사 일반사항",
+          "title": "3.3 공장제작과 현장시공의 정밀도 관리기준",
+          "label": "①"
+        },
+        {
+          "section_id": 209806,
+          "document_id": 935,
+          "code": "KCS 413105",
+          "document_name": "건축물 강구조공사 일반사항",
+          "title": "3.3 공장제작과 현장시공의 정밀도 관리기준",
+          "label": "②"
+        }
+      ],
+      "reference_clause": "3.3"
+    },
+    {
+      "source": {
+        "section_id": 210135,
+        "document_id": 938,
+        "code": "KCS 413120",
+        "document_name": "건축물 강구조공사 용접",
+        "title": "2.1.1 용접재 ",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 31
+      },
+      "target": [
+        {
+          "section_id": 209788,
+          "document_id": 935,
+          "code": "KCS 413105",
+          "document_name": "건축물 강구조공사 일반사항",
+          "title": "2.3 강재 및 재료의 품질관리 및 확인 ",
+          "label": "(1)"
+        },
+        {
+          "section_id": 209789,
+          "document_id": 935,
+          "code": "KCS 413105",
+          "document_name": "건축물 강구조공사 일반사항",
+          "title": "2.3 강재 및 재료의 품질관리 및 확인 ",
+          "label": "(2)"
+        },
+        {
+          "section_id": 209790,
+          "document_id": 935,
+          "code": "KCS 413105",
+          "document_name": "건축물 강구조공사 일반사항",
+          "title": "2.3 강재 및 재료의 품질관리 및 확인 ",
+          "label": "(3)"
+        }
+      ],
+      "reference_clause": "2.3"
+    },
+    {
+      "source": {
+        "section_id": 432366,
+        "document_id": 2876,
+        "code": "LHCS 112011",
+        "document_name": "표토(조경용비옥토)채취및보관",
+        "title": "3.2 작업준비",
+        "label": "(4)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 115
+      },
+      "target": [
+        {
+          "section_id": 200997,
+          "document_id": 892,
+          "code": "KCS 342010",
+          "document_name": "조경 토공사",
+          "title": "1.7 현장수량검측",
+          "label": "(2)"
+        }
+      ],
+      "reference_clause": "1.7"
+    },
+    {
+      "source": {
+        "section_id": 22984,
+        "document_id": 86,
+        "code": "KDS 241011",
+        "document_name": "교량 설계 일반사항(한계상태설계법)",
+        "title": "4.6.2.4 단순판 및 연속판",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 662
+      },
+      "target": [
+        {
+          "section_id": 24382,
+          "document_id": 92,
+          "code": "KDS 241221",
+          "document_name": "교량 설계하중(한계상태설계법)",
+          "title": "4.3.1.4 바닥판과 바닥틀을 설계하는 경우의 설계차량활하중",
+          "label": "(1)"
+        }
+      ],
+      "reference_clause": "4.3.1.4"
+    },
+    {
+      "source": {
+        "section_id": 179060,
+        "document_id": 805,
+        "code": "KCS 318050",
+        "document_name": "연소방지 설비공사",
+        "title": "3.2 헤드",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 23
+      },
+      "target": [
+        {
+          "section_id": 178724,
+          "document_id": 798,
+          "code": "KCS 318015",
+          "document_name": "스프링클러 설비공사",
+          "title": "3.1.1 일반배관",
+          "label": "(1)"
+        },
+        {
+          "section_id": 178725,
+          "document_id": 798,
+          "code": "KCS 318015",
+          "document_name": "스프링클러 설비공사",
+          "title": "3.1.1 일반배관",
+          "label": "(2)"
+        },
+        {
+          "section_id": 178726,
+          "document_id": 798,
+          "code": "KCS 318015",
+          "document_name": "스프링클러 설비공사",
+          "title": "3.1.1 일반배관",
+          "label": "(3)"
+        }
+      ],
+      "reference_clause": "3.1.1"
+    },
+    {
+      "source": {
+        "section_id": 108040,
+        "document_id": 440,
+        "code": "KDS 549000",
+        "document_name": "소규모댐",
+        "title": "4.5.2 설계조건",
+        "label": "②",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 331
+      },
+      "target": [
+        {
+          "section_id": 106601,
+          "document_id": 435,
+          "code": "KDS 545000",
+          "document_name": "콘크리트중력댐",
+          "title": "1.6.1 댐에 작용하는 힘",
+          "label": "(1)"
+        },
+        {
+          "section_id": 106606,
+          "document_id": 435,
+          "code": "KDS 545000",
+          "document_name": "콘크리트중력댐",
+          "title": "1.6.1 댐에 작용하는 힘",
+          "label": "①"
+        },
+        {
+          "section_id": 106607,
+          "document_id": 435,
+          "code": "KDS 545000",
+          "document_name": "콘크리트중력댐",
+          "title": "1.6.1 댐에 작용하는 힘",
+          "label": "②"
+        }
+      ],
+      "reference_clause": "1.6.1"
+    },
+    {
+      "source": {
+        "section_id": 178807,
+        "document_id": 799,
+        "code": "KCS 318020",
+        "document_name": "간이 스프링클러 설비공사",
+        "title": "3.1.1 일반배관",
+        "label": "(5)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 28
+      },
+      "target": [
+        {
+          "section_id": 178724,
+          "document_id": 798,
+          "code": "KCS 318015",
+          "document_name": "스프링클러 설비공사",
+          "title": "3.1.1 일반배관",
+          "label": "(1)"
+        },
+        {
+          "section_id": 178725,
+          "document_id": 798,
+          "code": "KCS 318015",
+          "document_name": "스프링클러 설비공사",
+          "title": "3.1.1 일반배관",
+          "label": "(2)"
+        },
+        {
+          "section_id": 178726,
+          "document_id": 798,
+          "code": "KCS 318015",
+          "document_name": "스프링클러 설비공사",
+          "title": "3.1.1 일반배관",
+          "label": "(3)"
+        }
+      ],
+      "reference_clause": "3.1.1"
+    },
+    {
+      "source": {
+        "section_id": 146802,
+        "document_id": 630,
+        "code": "KCS 118010",
+        "document_name": "보강토옹벽공사",
+        "title": "3.6 현장품질관리",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 216
+      },
+      "target": [
+        {
+          "section_id": 140973,
+          "document_id": 590,
+          "code": "KCS 112020",
+          "document_name": "쌓기",
+          "title": "3.2.16 다짐의 기준",
+          "label": "(1)"
+        },
+        {
+          "section_id": 140974,
+          "document_id": 590,
+          "code": "KCS 112020",
+          "document_name": "쌓기",
+          "title": "3.2.16 다짐의 기준",
+          "label": "①"
+        },
+        {
+          "section_id": 140975,
+          "document_id": 590,
+          "code": "KCS 112020",
+          "document_name": "쌓기",
+          "title": "3.2.16 다짐의 기준",
+          "label": "②"
+        }
+      ],
+      "reference_clause": "3.2.16"
+    },
+    {
+      "source": {
+        "section_id": 209878,
+        "document_id": 936,
+        "code": "KCS 413110",
+        "document_name": "건축물 강구조공사 강재 및 자재",
+        "title": "2.2.1 일반사항",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 39
+      },
+      "target": [
+        {
+          "section_id": 153798,
+          "document_id": 673,
+          "code": "KCS 143125",
+          "document_name": "볼트 접합 및 핀 연결",
+          "title": "2.1 고장력볼트",
+          "label": "(1)"
+        },
+        {
+          "section_id": 153800,
+          "document_id": 673,
+          "code": "KCS 143125",
+          "document_name": "볼트 접합 및 핀 연결",
+          "title": "2.1 고장력볼트",
+          "label": "(2)"
+        },
+        {
+          "section_id": 153807,
+          "document_id": 673,
+          "code": "KCS 143125",
+          "document_name": "볼트 접합 및 핀 연결",
+          "title": "2.1 고장력볼트",
+          "label": "(6)"
+        }
+      ],
+      "reference_clause": "2.1"
+    },
+    {
+      "source": {
+        "section_id": 178665,
+        "document_id": 797,
+        "code": "KCS 318010",
+        "document_name": "옥내 및 옥외 소화전 설비공사",
+        "title": "3.1.1 일반배관",
+        "label": "본문",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 27
+      },
+      "target": [
+        {
+          "section_id": 178593,
+          "document_id": 796,
+          "code": "KCS 318005",
+          "document_name": "소방기계설비 공통공사",
+          "title": "3.4.1 일반배관",
+          "label": "(1)"
+        },
+        {
+          "section_id": 178594,
+          "document_id": 796,
+          "code": "KCS 318005",
+          "document_name": "소방기계설비 공통공사",
+          "title": "3.4.1 일반배관",
+          "label": "(2)"
+        },
+        {
+          "section_id": 178595,
+          "document_id": 796,
+          "code": "KCS 318005",
+          "document_name": "소방기계설비 공통공사",
+          "title": "3.4.1 일반배관",
+          "label": "(3)"
+        }
+      ],
+      "reference_clause": "3.4.1"
+    },
+    {
+      "source": {
+        "section_id": 248616,
+        "document_id": 1155,
+        "code": "KCS 516040",
+        "document_name": "하천 하구공사",
+        "title": "3.3.5 하구준설과 매립",
+        "label": "③",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 309
+      },
+      "target": [
+        {
+          "section_id": 137405,
+          "document_id": 568,
+          "code": "KCS 101030",
+          "document_name": "환경관리",
+          "title": "1.5 수질",
+          "label": "(1)"
+        },
+        {
+          "section_id": 137406,
+          "document_id": 568,
+          "code": "KCS 101030",
+          "document_name": "환경관리",
+          "title": "1.5 수질",
+          "label": "(2)"
+        },
+        {
+          "section_id": 137407,
+          "document_id": 568,
+          "code": "KCS 101030",
+          "document_name": "환경관리",
+          "title": "1.5 수질",
+          "label": "(3)"
+        }
+      ],
+      "reference_clause": "1.5"
+    },
+    {
+      "source": {
+        "section_id": 359512,
+        "document_id": 2407,
+        "code": "EXCS 242025",
+        "document_name": "PSM 공법",
+        "title": "1.1 적용 범위",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 3
+      },
+      "target": [
+        {
+          "section_id": 159519,
+          "document_id": 709,
+          "code": "KCS 242025",
+          "document_name": "PSM 공법",
+          "title": "1.1 적용범위",
+          "label": "(1)"
+        }
+      ],
+      "reference_clause": "1.1"
+    },
+    {
+      "source": {
+        "section_id": 350152,
+        "document_id": 2305,
+        "code": "EXCS 115010",
+        "document_name": "현장타설 콘크리트 말뚝",
+        "title": "3.6.4 검사 대상 말뚝수량 및 시기",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 77
+      },
+      "target": [
+        {
+          "section_id": 143643,
+          "document_id": 611,
+          "code": "KCS 115010",
+          "document_name": "현장타설 콘크리트 말뚝",
+          "title": "3.9.4 검사 수량 및 시기",
+          "label": "(2)"
+        }
+      ],
+      "reference_clause": "3.9.4"
+    },
+    {
+      "source": {
+        "section_id": 37067,
+        "document_id": 106,
+        "code": "KDS 241712",
+        "document_name": "교량내진 설계기준(케이블교량)",
+        "title": "4.6.4.1 휨성능 검증",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 346
+      },
+      "target": [
+        {
+          "section_id": 27692,
+          "document_id": 95,
+          "code": "KDS 241421",
+          "document_name": "콘크리트교 설계기준 (한계상태설계법)",
+          "title": "3.1.2.5 응력-변형률 관계",
+          "label": "①"
+        },
+        {
+          "section_id": 27697,
+          "document_id": 95,
+          "code": "KDS 241421",
+          "document_name": "콘크리트교 설계기준 (한계상태설계법)",
+          "title": "3.1.2.5 응력-변형률 관계",
+          "label": "②"
+        },
+        {
+          "section_id": 27717,
+          "document_id": 95,
+          "code": "KDS 241421",
+          "document_name": "콘크리트교 설계기준 (한계상태설계법)",
+          "title": "3.1.2.5 응력-변형률 관계",
+          "label": "①"
+        }
+      ],
+      "reference_clause": "3.1.2.5"
+    },
+    {
+      "source": {
+        "section_id": 214487,
+        "document_id": 968,
+        "code": "KCS 413506",
+        "document_name": "건식 석재공사",
+        "title": "3.1 일반 사항",
+        "label": "(9)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 34
+      },
+      "target": [
+        {
+          "section_id": 214219,
+          "document_id": 963,
+          "code": "KCS 413501",
+          "document_name": "석공사 일반",
+          "title": "2.4 실링재",
+          "label": "(2)"
+        }
+      ],
+      "reference_clause": "2.4"
+    },
+    {
+      "source": {
+        "section_id": 140404,
+        "document_id": 588,
+        "code": "KCS 112010",
+        "document_name": "깎기",
+        "title": "3.3.16 발파계획",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 203
+      },
+      "target": [
+        {
+          "section_id": 88657,
+          "document_id": 293,
+          "code": "KDS 443000",
+          "document_name": "도로토공",
+          "title": "4.4.1 개요",
+          "label": "(1)"
+        },
+        {
+          "section_id": 88658,
+          "document_id": 293,
+          "code": "KDS 443000",
+          "document_name": "도로토공",
+          "title": "4.4.1 개요",
+          "label": "(2)"
+        },
+        {
+          "section_id": 88662,
+          "document_id": 293,
+          "code": "KDS 443000",
+          "document_name": "도로토공",
+          "title": "4.4.1 개요",
+          "label": "(3)"
+        }
+      ],
+      "reference_clause": "4.4.1"
+    },
+    {
+      "source": {
+        "section_id": 11363,
+        "document_id": 58,
+        "code": "KDS 142080",
+        "document_name": "콘크리트 내진설계기준",
+        "title": "4.8.9 시공줄눈",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 354
+      },
+      "target": [
+        {
+          "section_id": 7026,
+          "document_id": 42,
+          "code": "KDS 142022",
+          "document_name": "콘크리트구조 전단 및 비틀림 설계기준",
+          "title": "4.6.3 접촉면의 처리",
+          "label": "(2)"
+        }
+      ],
+      "reference_clause": "4.6.3"
+    },
+    {
+      "source": {
+        "section_id": 220702,
+        "document_id": 1021,
+        "code": "KCS 414901",
+        "document_name": "금속공사 일반",
+        "title": "1.5.1 일반사항",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 45
+      },
+      "target": [
+        {
+          "section_id": 208024,
+          "document_id": 927,
+          "code": "KCS 411000",
+          "document_name": "건축공사 일반사항",
+          "title": "1.5 품질 보증",
+          "label": "③"
+        },
+        {
+          "section_id": 208027,
+          "document_id": 927,
+          "code": "KCS 411000",
+          "document_name": "건축공사 일반사항",
+          "title": "1.5 품질 보증",
+          "label": "①"
+        },
+        {
+          "section_id": 208028,
+          "document_id": 927,
+          "code": "KCS 411000",
+          "document_name": "건축공사 일반사항",
+          "title": "1.5 품질 보증",
+          "label": "②"
+        }
+      ],
+      "reference_clause": "1.5"
+    },
+    {
+      "source": {
+        "section_id": 201294,
+        "document_id": 894,
+        "code": "KCS 344005",
+        "document_name": "식재공통",
+        "title": "1.6 환경요구사항",
+        "label": "(7)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 45
+      },
+      "target": [
+        {
+          "section_id": 201144,
+          "document_id": 893,
+          "code": "KCS 343010",
+          "document_name": "식재기반 조성",
+          "title": "3.1.1 일반식재기반 조성",
+          "label": "①"
+        },
+        {
+          "section_id": 201148,
+          "document_id": 893,
+          "code": "KCS 343010",
+          "document_name": "식재기반 조성",
+          "title": "3.1.1 일반식재기반 조성",
+          "label": "②"
+        },
+        {
+          "section_id": 201150,
+          "document_id": 893,
+          "code": "KCS 343010",
+          "document_name": "식재기반 조성",
+          "title": "3.1.1 일반식재기반 조성",
+          "label": "①"
+        }
+      ],
+      "reference_clause": "3.1.1"
+    },
+    {
+      "source": {
+        "section_id": 11100,
+        "document_id": 58,
+        "code": "KDS 142080",
+        "document_name": "콘크리트 내진설계기준",
+        "title": "4.1.1 적용 범위",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 91
+      },
+      "target": [
+        {
+          "section_id": 5659,
+          "document_id": 39,
+          "code": "KDS 142001",
+          "document_name": "콘크리트구조 설계(강도설계법) 일반사항",
+          "title": "3.1.2 콘크리트 일반",
+          "label": "(2)"
+        },
+        {
+          "section_id": 5661,
+          "document_id": 39,
+          "code": "KDS 142001",
+          "document_name": "콘크리트구조 설계(강도설계법) 일반사항",
+          "title": "3.1.2 콘크리트 일반",
+          "label": "(4)"
+        },
+        {
+          "section_id": 5701,
+          "document_id": 39,
+          "code": "KDS 142001",
+          "document_name": "콘크리트구조 설계(강도설계법) 일반사항",
+          "title": "3.1.2 콘크리트 일반",
+          "label": "(6)"
+        }
+      ],
+      "reference_clause": "3.1.2"
+    },
+    {
+      "source": {
+        "section_id": 73914,
+        "document_id": 245,
+        "code": "KDS 412000",
+        "document_name": "건축물 콘크리트구조 설계기준",
+        "title": "4.3.2 접합부",
+        "label": "①",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 48
+      },
+      "target": [
+        {
+          "section_id": 8066,
+          "document_id": 47,
+          "code": "KDS 142050",
+          "document_name": "콘크리트구조 철근상세 설계기준",
+          "title": "4.4.2 압축부재의 횡철근",
+          "label": "①"
+        },
+        {
+          "section_id": 8069,
+          "document_id": 47,
+          "code": "KDS 142050",
+          "document_name": "콘크리트구조 철근상세 설계기준",
+          "title": "4.4.2 압축부재의 횡철근",
+          "label": "④"
+        },
+        {
+          "section_id": 8071,
+          "document_id": 47,
+          "code": "KDS 142050",
+          "document_name": "콘크리트구조 철근상세 설계기준",
+          "title": "4.4.2 압축부재의 횡철근",
+          "label": "①"
+        }
+      ],
+      "reference_clause": "4.4.2"
+    },
+    {
+      "source": {
+        "section_id": 107981,
+        "document_id": 440,
+        "code": "KDS 549000",
+        "document_name": "소규모댐",
+        "title": "4.4.2  필댐의 설계",
+        "label": "②",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 272
+      },
+      "target": [
+        {
+          "section_id": 105902,
+          "document_id": 433,
+          "code": "KDS 543000",
+          "document_name": "필댐",
+          "title": "4.2.3 축제재료의 선택",
+          "label": "①"
+        },
+        {
+          "section_id": 105903,
+          "document_id": 433,
+          "code": "KDS 543000",
+          "document_name": "필댐",
+          "title": "4.2.3 축제재료의 선택",
+          "label": "②"
+        },
+        {
+          "section_id": 105905,
+          "document_id": 433,
+          "code": "KDS 543000",
+          "document_name": "필댐",
+          "title": "4.2.3 축제재료의 선택",
+          "label": "①"
+        }
+      ],
+      "reference_clause": "4.2.3"
+    },
+    {
+      "source": {
+        "section_id": 22565,
+        "document_id": 86,
+        "code": "KDS 241011",
+        "document_name": "교량 설계 일반사항(한계상태설계법)",
+        "title": "2.5.2.4 주행성",
+        "label": "(5)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 243
+      },
+      "target": [
+        {
+          "section_id": 22261,
+          "document_id": 85,
+          "code": "KDS 241010",
+          "document_name": "교량설계 일반사항(일반설계법)",
+          "title": "4.2.2 주행안전성 및 승차감 검토를 위한 절차 및 방법",
+          "label": "본문"
+        },
+        {
+          "section_id": 22262,
+          "document_id": 85,
+          "code": "KDS 241010",
+          "document_name": "교량설계 일반사항(일반설계법)",
+          "title": "4.2.2 주행안전성 및 승차감 검토를 위한 절차 및 방법",
+          "label": "(1)"
+        },
+        {
+          "section_id": 22263,
+          "document_id": 85,
+          "code": "KDS 241010",
+          "document_name": "교량설계 일반사항(일반설계법)",
+          "title": "4.2.2 주행안전성 및 승차감 검토를 위한 절차 및 방법",
+          "label": "(2)"
+        }
+      ],
+      "reference_clause": "4.2.2"
+    },
+    {
+      "source": {
+        "section_id": 246855,
+        "document_id": 1149,
+        "code": "KCS 516023",
+        "document_name": "하천 하상정리공사",
+        "title": "3.3.12 사토장, 투기장 및 침전지 시설",
+        "label": "⑥",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 153
+      },
+      "target": [
+        {
+          "section_id": 137405,
+          "document_id": 568,
+          "code": "KCS 101030",
+          "document_name": "환경관리",
+          "title": "1.5 수질",
+          "label": "(1)"
+        },
+        {
+          "section_id": 137406,
+          "document_id": 568,
+          "code": "KCS 101030",
+          "document_name": "환경관리",
+          "title": "1.5 수질",
+          "label": "(2)"
+        },
+        {
+          "section_id": 137407,
+          "document_id": 568,
+          "code": "KCS 101030",
+          "document_name": "환경관리",
+          "title": "1.5 수질",
+          "label": "(3)"
+        }
+      ],
+      "reference_clause": "1.5"
+    },
+    {
+      "source": {
+        "section_id": 218786,
+        "document_id": 1005,
+        "code": "KCS 414607",
+        "document_name": "돌로마이트 플라스터 바름",
+        "title": "2.1 돌로마이트 플라스터",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 23
+      },
+      "target": [
+        {
+          "section_id": 218220,
+          "document_id": 999,
+          "code": "KCS 414601",
+          "document_name": "미장공사 일반",
+          "title": "2.6.6 기성배합 돌로마이트 플라스터",
+          "label": "본문"
+        }
+      ],
+      "reference_clause": "2.6.6"
+    },
+    {
+      "source": {
+        "section_id": 10092,
+        "document_id": 54,
+        "code": "KDS 142068",
+        "document_name": "유리섬유 강화 폴리머 보강근 콘크리트구조 설계기준",
+        "title": "4.8.3.4 전단력에 대한 기초판 설계",
+        "label": "(3)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 632
+      },
+      "target": [
+        {
+          "section_id": 10599,
+          "document_id": 55,
+          "code": "KDS 142070",
+          "document_name": "콘크리트 슬래브와 기초판 설계기준",
+          "title": "4.2.2.2 전단력에 대한 설계",
+          "label": "(1)"
+        },
+        {
+          "section_id": 10600,
+          "document_id": 55,
+          "code": "KDS 142070",
+          "document_name": "콘크리트 슬래브와 기초판 설계기준",
+          "title": "4.2.2.2 전단력에 대한 설계",
+          "label": "(2)"
+        }
+      ],
+      "reference_clause": "4.2.2.2"
+    },
+    {
+      "source": {
+        "section_id": 178625,
+        "document_id": 796,
+        "code": "KCS 318005",
+        "document_name": "소방기계설비 공통공사",
+        "title": "3.6.1 물계통 소화설비의 시험 및 검사",
+        "label": "②",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 122
+      },
+      "target": [
+        {
+          "section_id": 171145,
+          "document_id": 766,
+          "code": "KCS 312015",
+          "document_name": "배관설비공사",
+          "title": "3.15 시험 및 검사",
+          "label": "(1)"
+        },
+        {
+          "section_id": 171147,
+          "document_id": 766,
+          "code": "KCS 312015",
+          "document_name": "배관설비공사",
+          "title": "3.15 시험 및 검사",
+          "label": "(2)"
+        },
+        {
+          "section_id": 171148,
+          "document_id": 766,
+          "code": "KCS 312015",
+          "document_name": "배관설비공사",
+          "title": "3.15 시험 및 검사",
+          "label": "(3)"
+        }
+      ],
+      "reference_clause": "3.15"
+    },
+    {
+      "source": {
+        "section_id": 21757,
+        "document_id": 83,
+        "code": "KDS 216000",
+        "document_name": "비계 및 안전시설물 설계기준",
+        "title": "1.7 하중조합",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 86
+      },
+      "target": [
+        {
+          "section_id": 20923,
+          "document_id": 79,
+          "code": "KDS 211000",
+          "document_name": "가시설물 설계 일반사항",
+          "title": "3.3.1 거푸집 및 동바리, 비계 및 안전시설물",
+          "label": "(1)"
+        }
+      ],
+      "reference_clause": "3.3.1"
+    },
+    {
+      "source": {
+        "section_id": 46692,
+        "document_id": 165,
+        "code": "KDS 321710",
+        "document_name": "건축물 전기설비 내진 설계기준",
+        "title": "4.8 배터리랙의 설계",
+        "label": "(2)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 190
+      },
+      "target": [
+        {
+          "section_id": 71395,
+          "document_id": 243,
+          "code": "KDS 411700",
+          "document_name": "건축물 내진설계기준",
+          "title": "2.4 성능목표",
+          "label": "(1)"
+        },
+        {
+          "section_id": 71397,
+          "document_id": 243,
+          "code": "KDS 411700",
+          "document_name": "건축물 내진설계기준",
+          "title": "2.4 성능목표",
+          "label": "(2)"
+        },
+        {
+          "section_id": 71399,
+          "document_id": 243,
+          "code": "KDS 411700",
+          "document_name": "건축물 내진설계기준",
+          "title": "2.4 성능목표",
+          "label": "(3)"
+        }
+      ],
+      "reference_clause": "2.4"
+    },
+    {
+      "source": {
+        "section_id": 230542,
+        "document_id": 1078,
+        "code": "KCS 418501",
+        "document_name": "해체공사 및 자원 재활용 일반사항",
+        "title": "3.9 친환경 시공",
+        "label": "②",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 418
+      },
+      "target": [
+        {
+          "section_id": 208034,
+          "document_id": 927,
+          "code": "KCS 411000",
+          "document_name": "건축공사 일반사항",
+          "title": "1.6 환경유의사항",
+          "label": "①"
+        },
+        {
+          "section_id": 208046,
+          "document_id": 927,
+          "code": "KCS 411000",
+          "document_name": "건축공사 일반사항",
+          "title": "1.6 환경유의사항",
+          "label": "④"
+        },
+        {
+          "section_id": 208049,
+          "document_id": 927,
+          "code": "KCS 411000",
+          "document_name": "건축공사 일반사항",
+          "title": "1.6 환경유의사항",
+          "label": "②"
+        }
+      ],
+      "reference_clause": "1.6"
+    },
+    {
+      "source": {
+        "section_id": 37663,
+        "document_id": 108,
+        "code": "KDS 245005",
+        "document_name": "GFRP 보강근용 콘크리트교 설계기준",
+        "title": "9.2 간격 제한",
+        "label": "(1)",
+        "has_image": 0,
+        "has_table": 0,
+        "ordinal": 357
+      },
+      "target": [
+        {
+          "section_id": 7975,
+          "document_id": 47,
+          "code": "KDS 142050",
+          "document_name": "콘크리트구조 철근상세 설계기준",
+          "title": "4.2.2 간격 제한",
+          "label": "(1)"
+        },
+        {
+          "section_id": 7976,
+          "document_id": 47,
+          "code": "KDS 142050",
+          "document_name": "콘크리트구조 철근상세 설계기준",
+          "title": "4.2.2 간격 제한",
+          "label": "(2)"
+        },
+        {
+          "section_id": 7977,
+          "document_id": 47,
+          "code": "KDS 142050",
+          "document_name": "콘크리트구조 철근상세 설계기준",
+          "title": "4.2.2 간격 제한",
+          "label": "(3)"
+        }
+      ],
+      "reference_clause": "4.2.2"
+    }
+  ]
+}
